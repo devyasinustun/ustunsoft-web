@@ -94,6 +94,8 @@ Ana sayfadaki rakamlar (toplam indirme, yayındaki uygulama sayısı, puan) `app
 
 Bileşenler `apps.json`'u doğrudan içe aktarmaz; veri yalnızca `lib/apps.ts` üzerinden okunur.
 
+Logo `brand/logo-source.jpg` dosyasından üretilir. Logoyu değiştirmek için bu dosyayı yenileyip `node scripts/make-brand-assets.mjs` çalıştırın; favicon seti, `public/logo.webp` ve `public/og.png` yeniden yazılır.
+
 ## Yayın
 
 - `main` dalı yayındaki haldir. `main`'e yapılan her push `.github/workflows/deploy.yml` ile siteyi yayınlar.
