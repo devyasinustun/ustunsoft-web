@@ -40,7 +40,8 @@
     "contact": "İletişim",
     "privacy": "Gizlilik Politikası",
     "terms": "Kullanım Koşulları",
-    "rights": "© {year} ustunsoft. Tüm hakları saklıdır."
+    "rights": "© {year} ustunsoft. Tüm hakları saklıdır.",
+    "contactNotice": "İletişim Formu Aydınlatma Metni"
   },
   "home": {
     "hero": {
@@ -131,5 +132,138 @@
       "next": "Sonraki",
       "position": "{index} / {total}"
     }
+  },
+  "about": {
+    "metaTitle": "Hakkımızda",
+    "metaDescription": "ustunsoft, İstanbul'da mobil uygulama ve oyun geliştiren bağımsız bir stüdyo. Nasıl çalıştığımız ve neye önem verdiğimiz.",
+    "title": "Hakkımızda",
+    "lead": "ustunsoft, Yasin Üstün'ün İstanbul'da kurduğu bağımsız bir mobil uygulama ve oyun stüdyosu.",
+    "story": {
+      "title": "Hikayemiz",
+      "p1": "Kendi kullanmak istediğimiz uygulamaları yapıyoruz. Arkadaş toplantısında herkesin telefonunda açılabilecek bir kelime oyunu, kâğıt kalem aramadan skor tutmayı sağlayan bir sayaç gibi.",
+      "p2": "Uygulamalarımız Google Play'de yayınlanıyor. Hepsi hesap açmadan kullanılıyor ve ürettiğiniz veriler cihazınızda kalıyor.",
+      "published": "Yayında",
+      "upcoming": "Sırada"
+    },
+    "mission": {
+      "title": "Misyon",
+      "body": "Oyun gecelerini ve günlük küçük işleri kolaylaştıran, kurulumu uğraştırmayan uygulamalar yapmak."
+    },
+    "values": {
+      "title": "Değerler",
+      "items": {
+        "focus": {
+          "title": "Az ama tam",
+          "body": "Bir uygulama tek bir işi iyi yapsın. Kullanılmayacak özellik eklemiyoruz."
+        },
+        "privacy": {
+          "title": "Gizliliğe saygı",
+          "body": "Hesap istemiyoruz, oyun ve skor verilerinizi sunucumuza göndermiyoruz. Uygulamalarda reklam olduğunu da açıkça söylüyoruz."
+        },
+        "feedback": {
+          "title": "Geri bildirimi okuruz",
+          "body": "Destek adresine gelen her e-postayı okuyoruz. Uygulamalar bu mesajlarla şekilleniyor."
+        }
+      }
+    },
+    "tech": {
+      "title": "Kullandığımız teknolojiler",
+      "items": {
+        "flutter": {
+          "name": "Flutter",
+          "body": "Mobil uygulamalar"
+        },
+        "unity": {
+          "name": "Unity",
+          "body": "Oyunlar"
+        },
+        "dotnet": {
+          "name": ".NET",
+          "body": "Araçlar ve servisler"
+        }
+      }
+    },
+    "founder": {
+      "title": "Kurucu",
+      "placeholderLabel": "Yer tutucu",
+      "placeholder": "Bu bölümün metni henüz yazılmadı. Kurucu tanıtımı buraya gelecek."
+    }
+  },
+  "contact": {
+    "metaTitle": "İletişim",
+    "metaDescription": "ustunsoft'a soru, öneri ya da destek talebi gönderin. İstanbul, Türkiye.",
+    "title": "İletişim",
+    "lead": "Soru, öneri ya da destek talebi. Hangisi olursa yazın.",
+    "emailTitle": "E-posta",
+    "locationTitle": "Konum",
+    "location": "İstanbul, Türkiye",
+    "noForm": "Form şu an kullanılamıyor. Bize doğrudan e-posta gönderebilirsiniz:",
+    "form": {
+      "title": "Mesaj gönderin",
+      "name": "Adınız",
+      "email": "E-posta adresiniz",
+      "subject": "Konu",
+      "message": "Mesajınız",
+      "consent": "<link>İletişim formu aydınlatma metnini</link> okudum.",
+      "submit": "Gönder",
+      "sending": "Gönderiliyor…",
+      "successTitle": "Mesajınız ulaştı.",
+      "successBody": "En kısa sürede e-postayla dönüş yapacağız.",
+      "sendAnother": "Yeni mesaj yaz",
+      "error": "Mesaj gönderilemedi. Lütfen tekrar deneyin ya da doğrudan e-posta gönderin:",
+      "errors": {
+        "name": "Adınızı yazın.",
+        "email": "Geçerli bir e-posta adresi yazın.",
+        "subject": "Konu yazın.",
+        "message": "Mesajınız en az 10 karakter olmalı.",
+        "consent": "Devam etmek için aydınlatma metnini okuduğunuzu onaylayın."
+      }
+    }
+  },
+  "support": {
+    "metaTitle": "Destek ve sık sorulan sorular",
+    "metaDescription": "Tabu Mabu, Score Master ve ScanCode hakkında sık sorulan sorular ve destek e-postası.",
+    "title": "Destek",
+    "lead": "Uygulamalarımız hakkında en çok sorulanlar. Aradığınız burada yoksa bize yazın.",
+    "contactTitle": "Cevabı bulamadınız mı?",
+    "contactBody": "Hangi uygulamayı ve hangi telefonu kullandığınızı yazarsanız daha hızlı yardımcı oluruz.",
+    "contactCta": "İletişim formu"
+  },
+  "legal": {
+    "metaTitle": "İletişim formu aydınlatma metni",
+    "metaDescription": "ustunsoft iletişim formu üzerinden gönderdiğiniz bilgilerin nasıl işlendiği.",
+    "title": "İletişim formu aydınlatma metni",
+    "updated": "Son güncelleme: {date}",
+    "sections": {
+      "controller": {
+        "title": "Veri sorumlusu",
+        "body": "ustunsoft (Yasin Üstün), İstanbul, Türkiye. E-posta: {email}"
+      },
+      "data": {
+        "title": "Hangi bilgiler işlenir",
+        "body": "Forma yazdığınız ad, e-posta adresi, konu ve mesaj. Form bunların dışında bir bilgi istemez; sitede analitik aracı ya da izleme çerezi yoktur."
+      },
+      "purpose": {
+        "title": "Ne amaçla işlenir",
+        "body": "Yalnızca mesajınızı okumak, size cevap vermek ve destek talebinizi çözmek için. Bilgileriniz pazarlama amacıyla kullanılmaz ve satılmaz."
+      },
+      "basis": {
+        "title": "Hukuki sebep",
+        "body": "6698 sayılı Kişisel Verilerin Korunması Kanunu'nun 5. maddesinin 2. fıkrasının (f) bendi uyarınca, talebinizi yanıtlamaya yönelik meşru menfaatimiz."
+      },
+      "where": {
+        "title": "Nerede işlenir",
+        "body": "Form, Web3Forms adlı hizmet aracılığıyla gönderilir ve mesajınız e-posta olarak gelen kutumuza iletilir. Web3Forms'un ve e-posta sağlayıcımızın (Google) sunucuları Türkiye dışında bulunabilir. Mesajınız bu ikisi dışında kimseyle paylaşılmaz."
+      },
+      "retention": {
+        "title": "Ne kadar süre saklanır",
+        "body": "Mesajınız, yazışma tamamlandıktan sonra en fazla iki yıl e-posta kutumuzda saklanır ve ardından silinir. Daha önce silinmesini isterseniz bize yazmanız yeterlidir."
+      },
+      "rights": {
+        "title": "Haklarınız",
+        "body": "Kanun'un 11. maddesi uyarınca; verilerinizin işlenip işlenmediğini öğrenme, işlenmişse bilgi isteme, düzeltilmesini veya silinmesini isteme, aktarıldığı üçüncü kişileri öğrenme ve işlemeye itiraz etme haklarına sahipsiniz. Taleplerinizi {email} adresine gönderebilirsiniz. Ayrıca Kişisel Verileri Koruma Kurulu'na şikâyette bulunma hakkınız vardır."
+      }
+    },
+    "appsNote": "Mobil uygulamalarımızdaki veri işleme için: <link>Gizlilik Politikası</link>"
   }
 }

@@ -5,6 +5,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { routing } from "@/i18n/routing";
+import { SITE_ICONS } from "@/lib/seo";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 import { fontVariables } from "../fonts";
 import "../globals.css";
@@ -24,6 +25,7 @@ export async function generateMetadata({ params }: LayoutProps<"/[locale]">): Pr
     metadataBase: new URL(SITE_URL),
     title: { default: t("title"), template: `%s · ${SITE_NAME}` },
     description: t("description"),
+    icons: SITE_ICONS,
   };
 }
 

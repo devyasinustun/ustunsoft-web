@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { Wordmark } from "@/components/layout/Wordmark";
+import { SITE_ICONS } from "@/lib/seo";
 import { LOCALE_STORAGE_KEY } from "@/lib/site";
 import { fontVariables } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Sayfa bulunamadı · Page not found · ustunsoft",
+  icons: SITE_ICONS,
 };
 
 // Statik barındırmada tek bir 404.html var; dili tarayıcıda, sayfa boyanmadan önce seçeriz:

@@ -30,7 +30,8 @@ const SOURCES = {
   },
 };
 
-const ICON_SIZE = 512;
+// En büyük kullanım 128 CSS pikseli; 2x ekranlar için 256 yeterli.
+const ICON_SIZE = 256;
 const SCREENSHOT_MAX_EDGE = 1080;
 
 async function download(id) {

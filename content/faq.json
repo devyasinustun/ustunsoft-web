@@ -1,0 +1,147 @@
+[
+  {
+    "slug": "tabu-mabu",
+    "items": [
+      {
+        "q": {
+          "tr": "Tabu Mabu internet olmadan oynanır mı?",
+          "en": "Does Tabu Mabu work without internet?"
+        },
+        "a": {
+          "tr": "Evet. Oyun internet bağlantısı olmadan oynanır.",
+          "en": "Yes. The game plays without an internet connection."
+        }
+      },
+      {
+        "q": {
+          "tr": "Oynamak için hesap açmam gerekiyor mu?",
+          "en": "Do I need an account to play?"
+        },
+        "a": {
+          "tr": "Hayır. Kayıt olmadan, giriş yapmadan oynarsınız.",
+          "en": "No. You play without signing up or logging in."
+        }
+      },
+      {
+        "q": {
+          "tr": "Kelimeler hep aynı mı?",
+          "en": "Are the words always the same?"
+        },
+        "a": {
+          "tr": "Hayır. Kelime havuzu düzenli olarak güncelleniyor; güncellemelerle yeni kelimeler gelir.",
+          "en": "No. The word pool is updated regularly, and updates bring new words."
+        }
+      },
+      {
+        "q": {
+          "tr": "Kimlerle oynanır?",
+          "en": "Who can I play with?"
+        },
+        "a": {
+          "tr": "Aileniz ya da arkadaşlarınızla, iki takım halinde oynanır. Takım adlarını oyuna başlarken siz yazarsınız.",
+          "en": "With family or friends, in two teams. You type the team names when you start a game."
+        }
+      },
+      {
+        "q": {
+          "tr": "Oyun ücretli mi?",
+          "en": "Does the game cost anything?"
+        },
+        "a": {
+          "tr": "Hayır, ücretsiz. Oyunda Google AdMob reklamları gösterilir.",
+          "en": "No, it's free. The game shows Google AdMob ads."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "score-master",
+    "items": [
+      {
+        "q": {
+          "tr": "Score Master'ı hangi oyunlarda kullanabilirim?",
+          "en": "Which games can I use Score Master for?"
+        },
+        "a": {
+          "tr": "Skor tutulan her oyunda: 101, okey, batak gibi kâğıt ve taş oyunları ya da Scrabble gibi kutu oyunları.",
+          "en": "Any game where you keep score: card games like Rummy and Spades, or board games like Scrabble."
+        }
+      },
+      {
+        "q": {
+          "tr": "En düşük skorun kazandığı oyunlarda çalışır mı?",
+          "en": "Does it work for games where the lowest score wins?"
+        },
+        "a": {
+          "tr": "Evet. Oyunu kurarken “yüksek skor kazanır” ya da “düşük skor kazanır” kuralını seçersiniz; kazananı uygulama belirler.",
+          "en": "Yes. When setting up a game you choose “high score wins” or “low score wins”, and the app determines the winner."
+        }
+      },
+      {
+        "q": {
+          "tr": "Eksi puan girebilir miyim?",
+          "en": "Can I enter negative scores?"
+        },
+        "a": {
+          "tr": "Evet. Negatif skorlar desteklenir ve toplam anında güncellenir.",
+          "en": "Yes. Negative scores are supported, and the total updates instantly."
+        }
+      },
+      {
+        "q": {
+          "tr": "Yarım kalan oyuna sonra devam edebilir miyim?",
+          "en": "Can I continue an unfinished game later?"
+        },
+        "a": {
+          "tr": "Evet. Oyunlar cihazınıza kaydedilir; geçmiş ekranından açıp kaldığınız yerden devam edersiniz.",
+          "en": "Yes. Games are saved on your device; open one from the history screen and continue where you left off."
+        }
+      },
+      {
+        "q": {
+          "tr": "Sonucu paylaşabilir miyim?",
+          "en": "Can I share the result?"
+        },
+        "a": {
+          "tr": "Evet. Oyun bitince kazanan için bir “Şampiyon Kartı” oluşur; bunu arkadaşlarınızla paylaşabilirsiniz.",
+          "en": "Yes. When the game ends, a “Champion Card” is created for the winner, and you can share it with friends."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "scancode",
+    "items": [
+      {
+        "q": {
+          "tr": "ScanCode ne zaman yayınlanacak?",
+          "en": "When will ScanCode be released?"
+        },
+        "a": {
+          "tr": "Uygulama yakında Google Play'de olacak. Kesin bir tarih vermiyoruz; yayına girdiğinde bu sitede indirme bağlantısı görünecek.",
+          "en": "The app will be on Google Play soon. We're not giving an exact date; the download link will appear on this site once it's out."
+        }
+      },
+      {
+        "q": {
+          "tr": "Tarama geçmişim nerede tutulacak?",
+          "en": "Where will my scan history be kept?"
+        },
+        "a": {
+          "tr": "Yalnızca cihazınızda. Taradığınız ve ürettiğiniz kodlar sunucumuza gönderilmez.",
+          "en": "Only on your device. The codes you scan and create are not sent to our servers."
+        }
+      },
+      {
+        "q": {
+          "tr": "Reklamsız kullanılabilecek mi?",
+          "en": "Will there be an ad-free option?"
+        },
+        "a": {
+          "tr": "Evet. Tek seferlik bir satın almayla reklamlar kaldırılabilecek.",
+          "en": "Yes. Ads can be removed with a one-time purchase."
+        }
+      }
+    ]
+  }
+]

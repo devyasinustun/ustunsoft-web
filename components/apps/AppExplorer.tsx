@@ -41,7 +41,7 @@ export function AppExplorer({ apps }: { apps: App[] }) {
       <ul className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {visible.map((app) => (
           <li key={app.slug}>
-            <AppCard app={app} />
+            <AppCard app={app} headingLevel="h2" />
           </li>
         ))}
       </ul>

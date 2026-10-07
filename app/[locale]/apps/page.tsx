@@ -6,18 +6,20 @@ import { AppExplorer } from "@/components/apps/AppExplorer";
 import { Container } from "@/components/ui/Container";
 import { routing } from "@/i18n/routing";
 import { getApps } from "@/lib/apps";
-import { localizedAlternates } from "@/lib/seo";
+import { pageMetadata, withSiteName } from "@/lib/seo";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/apps">): Promise<Metadata> {
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) return {};
   const t = await getTranslations({ locale, namespace: "apps" });
 
-  return {
+  return pageMetadata({
+    locale,
+    path: "/apps/",
     title: t("metaTitle"),
+    socialTitle: withSiteName(t("metaTitle")),
     description: t("metaDescription"),
-    alternates: localizedAlternates(locale, "/apps/"),
-  };
+  });
 }
 
 export default async function AppsPage({ params }: PageProps<"/[locale]/apps">) {
