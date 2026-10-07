@@ -1,0 +1,8 @@
+# Dokunulmaz dosyalar: uygulamalar ve AdMob bu adreslere bağlı
+public/docs/
+public/app-ads.txt
+
+out/
+.next/
+prompts/
+package-lock.json
