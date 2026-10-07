@@ -5,7 +5,17 @@
   },
   "common": {
     "skipToContent": "İçeriğe geç",
-    "comingSoon": "Yakında"
+    "comingSoon": "Yakında",
+    "comingSoonOnPlay": "Yakında Google Play'de",
+    "playBadgeAlt": "Google Play'den alın",
+    "playBadgeLabel": "{name}: Google Play'den alın",
+    "category": {
+      "game": "Oyun",
+      "app": "Uygulama"
+    },
+    "downloads": "{count} indirme",
+    "rating": "{rating} puan",
+    "ratingLabel": "Google Play puanı: 5 üzerinden {rating}"
   },
   "nav": {
     "label": "Ana menü",
@@ -33,7 +43,93 @@
     "rights": "© {year} ustunsoft. Tüm hakları saklıdır."
   },
   "home": {
-    "placeholderTitle": "Telefonunuzda yer açmaya değer uygulamalar.",
-    "placeholderBody": "Site hazırlanıyor. Uygulamalarımız şimdilik burada listeleniyor."
+    "hero": {
+      "eyebrow": "İstanbul'dan mobil uygulamalar ve oyunlar",
+      "title": "Küçük, işini bilen uygulamalar.",
+      "body": "Oyun gecesi için bir kelime oyunu, skor tutmak için bir sayaç. Hesap açtırmıyoruz; oyun ve skor verileriniz cihazınızda kalıyor.",
+      "primaryCta": "Uygulamaları keşfet",
+      "secondaryCta": "İletişim",
+      "screenshotAlt": "{name} uygulamasından bir ekran görüntüsü"
+    },
+    "featured": {
+      "title": "Öne çıkanlar",
+      "all": "Tüm uygulamalar",
+      "details": "Ayrıntılar",
+      "upcoming": "Sırada"
+    },
+    "stats": {
+      "title": "Rakamlarla",
+      "downloads": "Google Play'de toplam indirme",
+      "published": "yayındaki uygulama",
+      "ratingSingle": "{name} uygulamasının Google Play puanı",
+      "ratingAverage": "Google Play'de ortalama puan"
+    },
+    "approach": {
+      "title": "Nasıl yapıyoruz",
+      "intro": "Dört kural. Her uygulamada aynısı.",
+      "items": {
+        "account": {
+          "title": "Hesap gerekmez",
+          "body": "İndirin, açın, kullanın. Kayıt formu, şifre, e-posta doğrulaması yok."
+        },
+        "device": {
+          "title": "Verileriniz cihazınızda kalır",
+          "body": "Oyun ve skor verileriniz telefonunuzda saklanır, sunucumuza veri gönderilmez. Ücretsiz sürümlerde Google AdMob reklamları gösterilir; ayrıntısı Gizlilik Politikası'nda."
+        },
+        "offline": {
+          "title": "İnternetsiz oynanır",
+          "body": "Tabu Mabu bağlantı istemez. Yolda, yaylada, çekmeyen bir salonda da oynanır."
+        },
+        "simple": {
+          "title": "Sade arayüz",
+          "body": "Her ekranda tek iş. Ayar menülerinde kaybolmadan oyuna başlarsınız."
+        }
+      }
+    },
+    "cta": {
+      "title": "Bir sorunuz ya da öneriniz mi var?",
+      "body": "Yazın, okuyup cevaplıyoruz.",
+      "primary": "Bize yazın",
+      "secondary": "Uygulamalara göz atın"
+    }
+  },
+  "apps": {
+    "metaTitle": "Uygulamalar",
+    "metaDescription": "ustunsoft'un Google Play'deki oyun ve uygulamaları: Tabu Mabu, Score Master ve yakında gelecek olanlar.",
+    "title": "Uygulamalar",
+    "intro": "Yayındaki ve yolda olan her şey burada.",
+    "filterLabel": "Kategoriye göre filtrele",
+    "filter": {
+      "all": "Tümü",
+      "game": "Oyunlar",
+      "app": "Uygulamalar"
+    },
+    "count": "{count} sonuç"
+  },
+  "appDetail": {
+    "back": "Tüm uygulamalar",
+    "screenshots": "Ekran görüntüleri",
+    "features": "Özellikler",
+    "about": "Açıklama",
+    "info": "Bilgiler",
+    "category": "Kategori",
+    "downloads": "İndirme",
+    "rating": "Puan",
+    "ageRating": "Yaş sınırı",
+    "updated": "Son güncelleme",
+    "support": "Destek",
+    "supportBody": "Bir sorun mu yaşıyorsunuz? Bize e-posta gönderin.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "comingSoonNote": "Bu uygulama henüz yayında değil. Yayına girdiğinde indirme bağlantısı burada olacak.",
+    "gallery": {
+      "open": "Ekran görüntüsü {index} / {total}: büyüt",
+      "alt": "{name} ekran görüntüsü {index}",
+      "dialog": "{name} ekran görüntüleri",
+      "close": "Kapat",
+      "previous": "Önceki",
+      "next": "Sonraki",
+      "position": "{index} / {total}"
+    }
   }
 }
