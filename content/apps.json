@@ -1,0 +1,202 @@
+[
+  {
+    "slug": "tabu-mabu",
+    "packageName": "com.ustunsoft.tabumabu",
+    "name": {
+      "tr": "Tabu Mabu",
+      "en": "Tabu Mabu"
+    },
+    "category": "game",
+    "status": "published",
+    "featured": true,
+    "order": 1,
+    "accentColor": "#1f7a7a",
+    "playUrl": "https://play.google.com/store/apps/details?id=com.ustunsoft.tabumabu",
+    "shortDescription": {
+      "tr": "Kelimeleri anlatmanın en eğlenceli yolu.",
+      "en": "The most fun way to describe words."
+    },
+    "description": {
+      "tr": "İnternetsiz Tabu Keyfi :)\n\nHerhangi bir ücretlendirme olmadan oyun oynamanın tadını çıkarın.\n\nSürekli güncellenen zengin kelime haznesi sayesinde her oyunda yeni kelimelerle karşılaşırsınız.\n\nAileniz veya arkadaşlarınızla oynayabileceğiniz hem kelimeleri anlatıp hem de eğleneceğiniz harika bir oyun. Seslendirmeleriyle oyuna ayrı bir renk katan Tabu Mabu'yu keşfedin.",
+      "en": "Taboo Pleasure Without Internet :)\n\nEnjoy playing games without any charges.\n\nYou will encounter new words in every game thanks to the rich vocabulary that is constantly updated.\n\nIt is a great game that you can play with your family or friends, that you will both speak words and have fun. Discover Tabu Mabu, which adds a different color to the game with its voices."
+    },
+    "features": {
+      "tr": [
+        "İnternet olmadan oynanır",
+        "Sürekli güncellenen kelime havuzu",
+        "Aile ve arkadaşlarla oynanır",
+        "Oyuna renk katan ses efektleri",
+        "Hesap gerekmez"
+      ],
+      "en": [
+        "Plays without an internet connection",
+        "A word pool that keeps getting updated",
+        "Made for playing with family and friends",
+        "Sound effects that liven up the game",
+        "No account needed"
+      ]
+    },
+    "stats": {
+      "downloads": 10000,
+      "rating": 4.5
+    },
+    "ageRating": "3+",
+    "updatedAt": "2026-03",
+    "icon": "/apps/tabu-mabu/icon.webp",
+    "screenshots": [
+      {
+        "src": "/apps/tabu-mabu/screenshot-1.webp",
+        "width": 486,
+        "height": 1080
+      },
+      {
+        "src": "/apps/tabu-mabu/screenshot-2.webp",
+        "width": 486,
+        "height": 1080
+      },
+      {
+        "src": "/apps/tabu-mabu/screenshot-3.webp",
+        "width": 486,
+        "height": 1080
+      },
+      {
+        "src": "/apps/tabu-mabu/screenshot-4.webp",
+        "width": 486,
+        "height": 1080
+      },
+      {
+        "src": "/apps/tabu-mabu/screenshot-5.webp",
+        "width": 486,
+        "height": 1080
+      },
+      {
+        "src": "/apps/tabu-mabu/screenshot-6.webp",
+        "width": 486,
+        "height": 1080
+      },
+      {
+        "src": "/apps/tabu-mabu/screenshot-7.webp",
+        "width": 1024,
+        "height": 500
+      }
+    ]
+  },
+  {
+    "slug": "score-master",
+    "packageName": "com.ustunsoft.scoremaster",
+    "name": {
+      "tr": "Score Master",
+      "en": "Score Master"
+    },
+    "category": "app",
+    "status": "published",
+    "featured": true,
+    "order": 2,
+    "accentColor": "#8a6a00",
+    "playUrl": "https://play.google.com/store/apps/details?id=com.ustunsoft.scoremaster",
+    "shortDescription": {
+      "tr": "Kalem kâğıda gerek yok! Oyun skorlarını kolayca tut ve paylaş.",
+      "en": "Ditch the pen and paper! Easily track and share your game scores."
+    },
+    "description": {
+      "tr": "Kağıt kalem aramaya son! Score Master, arkadaşlarınızla oynadığınız tüm kart, masa ve kutu oyunlarında skor tutma deneyimini fütüristik ve şık bir boyuta taşıyor.\n\nİster 101, Okey, Batak gibi oyunlar; ister Scrabble, Tabu veya FRP gibi masa oyunları oynayın. Score Master'ın esnek altyapısı her türlü kurala uyum sağlayarak oyun gecelerinizin vazgeçilmezi olacak.\n\nÖNE ÇIKAN ÖZELLİKLER:\n\nEsnek Oyun Kuralları: Her oyunun kazananı farklıdır! Oyun kurulumunda isterseniz \"En Yüksek Skor Kazanır\", isterseniz \"En Düşük Skor Kazanır\" (okey/yazboz türü oyunlar için) kuralını seçerek uygulamanın şampiyonu otomatik belirlemesini sağlayın.\n\nPremium Siberpunk Avatarlar: Oyuncuları sadece isimleriyle değil; yüksek çözünürlüklü, neon ışıklı ve detaylı siberpunk avatarlarla temsil edin. Kendi karakterinizi seçin ve liderlik tablosunda tarzınızı yansıtın.\n\nGerçek Zamanlı Hesaplama: Skorları girdiğiniz anda toplam puanlar ve sıralama anında güncellenir. Ekstra kaydetme butonlarına basmanıza veya hesap makinesi kullanmanıza gerek kalmaz. Eksili (negatif) skor girişleri de tam desteklenir.\n\nOyun Geçmişi ve Devam Etme: Oyununuz yarım mı kaldı? Hiç sorun değil. Cihazınıza otomatik kaydedilen oyun oturumlarına \"Geçmiş\" (History) ekranından ulaşabilir ve bitmemiş oyunlarınıza kaldığınız yerden anında devam edebilirsiniz.\n\nŞampiyonu Paylaş: Oyun bittiğinde kazananı şık bir \"Şampiyonluk Kartı\" ile kutlayın. Tek bir tuşla, kesintisiz ve şık tasarımlı liderlik tablosunu doğrudan arkadaşlarınızla veya sosyal medyada paylaşın.\n\nKaranlık teması, cam efekti (glassmorphism) tasarımları ve neon detaylarıyla Score Master sıradan bir hesaplayıcı değil, oyun deneyiminizin bir parçasıdır.\n\nHemen indirin, skor tutma derdini Score Master'a bırakın ve oyunun tadını çıkarın!",
+      "en": "Ditch the pen and paper! Score Master takes your game nights to a futuristic and stylish new level. Track scores for card games, board games, and tabletop RPGs with ease.\n\nWhether you're playing Rummy, Spades, Scrabble, or custom party games, Score Master’s flexible engine adapts to your rules and becomes the ultimate companion for your game nights.\n\nKEY FEATURES:\n\nFlexible Winning Rules: Every game is different! Choose \"High Score Wins\" or \"Low Score Wins\" during setup, and let the app automatically crown the true champion.\n\nPremium Cyberpunk Avatars: Don't just be a name on a screen. Choose from high-quality, neon-lit cyberpunk avatars to represent your player profile and show off your style on the leaderboard.\n\nReal-Time Calculation: Enter your scores and watch the leaderboard update instantly. No extra save buttons or calculators needed. Negative scores are fully supported!\n\nGame History & Resume: Game interrupted? No problem. Sessions are automatically saved to your device. Access your past games in the \"History\" tab and resume unfinished matches anytime.\n\nShare the Champion: Celebrate the winner with a sleek \"Champion Card\". Share the complete, beautifully designed leaderboard directly with friends or on social media with a single tap.\n\nWith its dark theme, glassmorphism UI, and neon details, Score Master isn't just a calculator—it's part of the gaming experience.\n\nDownload now, leave the math to Score Master, and enjoy the game!"
+    },
+    "features": {
+      "tr": [
+        "“Yüksek skor kazanır” ya da “düşük skor kazanır” kuralı",
+        "18 neon cyberpunk avatar",
+        "Anlık hesaplama ve negatif skor desteği",
+        "Oyun geçmişi ve yarım kalan oyuna devam",
+        "Paylaşılabilir “Şampiyon Kartı”",
+        "Koyu tema ve neon tasarım",
+        "Türkçe ve İngilizce"
+      ],
+      "en": [
+        "“High score wins” or “low score wins” rule",
+        "18 neon cyberpunk avatars",
+        "Instant calculation and negative score support",
+        "Game history and resuming unfinished games",
+        "Shareable “Champion Card”",
+        "Dark theme and neon design",
+        "Turkish and English"
+      ]
+    },
+    "stats": {
+      "downloads": 500
+    },
+    "ageRating": "3+",
+    "updatedAt": "2026-08",
+    "icon": "/apps/score-master/icon.webp",
+    "screenshots": [
+      {
+        "src": "/apps/score-master/screenshot-1.webp",
+        "width": 504,
+        "height": 1080
+      },
+      {
+        "src": "/apps/score-master/screenshot-2.webp",
+        "width": 504,
+        "height": 1080
+      },
+      {
+        "src": "/apps/score-master/screenshot-3.webp",
+        "width": 504,
+        "height": 1080
+      },
+      {
+        "src": "/apps/score-master/screenshot-4.webp",
+        "width": 504,
+        "height": 1080
+      },
+      {
+        "src": "/apps/score-master/screenshot-5.webp",
+        "width": 504,
+        "height": 1080
+      },
+      {
+        "src": "/apps/score-master/screenshot-6.webp",
+        "width": 504,
+        "height": 1080
+      }
+    ]
+  },
+  {
+    "slug": "scancode",
+    "packageName": "com.ustunsoft.scancode",
+    "name": {
+      "tr": "ScanCode: QR & Barkod Okuyucu",
+      "en": "ScanCode: QR & Barcode Scanner"
+    },
+    "category": "app",
+    "status": "coming-soon",
+    "featured": false,
+    "order": 3,
+    "accentColor": "#0f7b4f",
+    "shortDescription": {
+      "tr": "QR kod ve barkodları kamerayla tara, kendi kodunu üret.",
+      "en": "Scan QR codes and barcodes with your camera, and create your own."
+    },
+    "description": {
+      "tr": "ScanCode, QR kod ve barkodları kamerayla tarayan ve kendi kodunuzu üretmenizi sağlayan bir uygulama. Tarama geçmişi yalnızca cihazınızda tutulur.",
+      "en": "ScanCode scans QR codes and barcodes with your camera and lets you create your own codes. Your scan history is kept only on your device."
+    },
+    "features": {
+      "tr": [
+        "Kamerayla QR ve barkod tarama",
+        "Kod üretme",
+        "Tarama geçmişi yalnızca cihazda",
+        "Şüpheli adres uyarısı",
+        "Tek seferlik satın almayla reklamsız kullanım"
+      ],
+      "en": [
+        "QR and barcode scanning with the camera",
+        "Code generation",
+        "Scan history stays on the device only",
+        "Warning for suspicious addresses",
+        "Ad-free use with a one-time purchase"
+      ]
+    },
+    "screenshots": []
+  }
+]

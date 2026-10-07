@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "title": "ustunsoft: mobil uygulamalar ve oyunlar",
+    "description": "İstanbul'da geliştirdiğimiz mobil uygulama ve oyunlar. Hesap gerekmez, oyun ve skor verileriniz cihazınızda kalır."
+  },
+  "common": {
+    "skipToContent": "İçeriğe geç",
+    "comingSoon": "Yakında"
+  },
+  "nav": {
+    "label": "Ana menü",
+    "home": "Ana sayfa",
+    "apps": "Uygulamalar",
+    "about": "Hakkımızda",
+    "support": "Destek",
+    "contact": "İletişim",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat"
+  },
+  "localeSwitcher": {
+    "label": "Dil",
+    "tr": "Türkçe",
+    "en": "English"
+  },
+  "footer": {
+    "tagline": "Mobil uygulama ve oyun stüdyosu.",
+    "location": "İstanbul, Türkiye",
+    "pages": "Sayfalar",
+    "legal": "Yasal",
+    "contact": "İletişim",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "rights": "© {year} ustunsoft. Tüm hakları saklıdır."
+  },
+  "home": {
+    "placeholderTitle": "Telefonunuzda yer açmaya değer uygulamalar.",
+    "placeholderBody": "Site hazırlanıyor. Uygulamalarımız şimdilik burada listeleniyor."
+  }
+}
