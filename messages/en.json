@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "title": "ustunsoft: mobile apps and games",
+    "description": "Mobile apps and games built in Istanbul. No account needed, and your game and score data stays on your device."
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "comingSoon": "Coming soon"
+  },
+  "nav": {
+    "label": "Main menu",
+    "home": "Home",
+    "apps": "Apps",
+    "about": "About",
+    "support": "Support",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "localeSwitcher": {
+    "label": "Language",
+    "tr": "Türkçe",
+    "en": "English"
+  },
+  "footer": {
+    "tagline": "A mobile app and game studio.",
+    "location": "Istanbul, Türkiye",
+    "pages": "Pages",
+    "legal": "Legal",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "rights": "© {year} ustunsoft. All rights reserved."
+  },
+  "home": {
+    "placeholderTitle": "Apps worth the space on your phone.",
+    "placeholderBody": "The site is being built. For now, our apps are listed here."
+  }
+}
