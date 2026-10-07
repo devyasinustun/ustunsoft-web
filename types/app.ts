@@ -31,6 +31,8 @@ export const appSchema = z
         // Google Play'in gösterdiği alt sınır (10K+ için 10000).
         downloads: z.number().int().nonnegative(),
         rating: z.number().min(1).max(5).optional(),
+        // Google Play'deki oy sayısı; verilirse JSON-LD aggregateRating'e eklenir.
+        ratingCount: z.number().int().positive().optional(),
       })
       .optional(),
     ageRating: z.string().optional(),

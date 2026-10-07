@@ -40,7 +40,8 @@
     "contact": "Contact",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
-    "rights": "© {year} ustunsoft. All rights reserved."
+    "rights": "© {year} ustunsoft. All rights reserved.",
+    "contactNotice": "Contact Form Privacy Notice"
   },
   "home": {
     "hero": {
@@ -131,5 +132,138 @@
       "next": "Next",
       "position": "{index} / {total}"
     }
+  },
+  "about": {
+    "metaTitle": "About",
+    "metaDescription": "ustunsoft is an independent studio in Istanbul that builds mobile apps and games. How we work and what we care about.",
+    "title": "About",
+    "lead": "ustunsoft is an independent mobile app and game studio founded by Yasin Üstün in Istanbul.",
+    "story": {
+      "title": "Our story",
+      "p1": "We build the apps we want to use ourselves. A word game anyone can open at a get-together, or a counter that keeps score without hunting for pen and paper.",
+      "p2": "Our apps are published on Google Play. All of them work without an account, and the data you create stays on your device.",
+      "published": "Published",
+      "upcoming": "Up next"
+    },
+    "mission": {
+      "title": "Mission",
+      "body": "To build apps that make game nights and small everyday tasks easier, with no setup to fuss over."
+    },
+    "values": {
+      "title": "Values",
+      "items": {
+        "focus": {
+          "title": "Less, done fully",
+          "body": "An app should do one job well. We don't add features nobody will use."
+        },
+        "privacy": {
+          "title": "Respect for privacy",
+          "body": "We don't ask for an account, and we don't send your game and score data to our servers. We also say plainly that the apps show ads."
+        },
+        "feedback": {
+          "title": "We read feedback",
+          "body": "We read every email that reaches the support address. Those messages shape the apps."
+        }
+      }
+    },
+    "tech": {
+      "title": "Technologies we use",
+      "items": {
+        "flutter": {
+          "name": "Flutter",
+          "body": "Mobile apps"
+        },
+        "unity": {
+          "name": "Unity",
+          "body": "Games"
+        },
+        "dotnet": {
+          "name": ".NET",
+          "body": "Tools and services"
+        }
+      }
+    },
+    "founder": {
+      "title": "Founder",
+      "placeholderLabel": "Placeholder",
+      "placeholder": "The text for this section hasn't been written yet. The founder's introduction will go here."
+    }
+  },
+  "contact": {
+    "metaTitle": "Contact",
+    "metaDescription": "Send ustunsoft a question, a suggestion or a support request. Istanbul, Türkiye.",
+    "title": "Contact",
+    "lead": "A question, a suggestion or a support request. Whichever it is, write to us.",
+    "emailTitle": "Email",
+    "locationTitle": "Location",
+    "location": "Istanbul, Türkiye",
+    "noForm": "The form isn't available right now. You can email us directly:",
+    "form": {
+      "title": "Send a message",
+      "name": "Your name",
+      "email": "Your email address",
+      "subject": "Subject",
+      "message": "Your message",
+      "consent": "I have read the <link>contact form privacy notice</link>.",
+      "submit": "Send",
+      "sending": "Sending…",
+      "successTitle": "Your message has arrived.",
+      "successBody": "We'll get back to you by email as soon as we can.",
+      "sendAnother": "Write another message",
+      "error": "The message couldn't be sent. Please try again, or email us directly:",
+      "errors": {
+        "name": "Enter your name.",
+        "email": "Enter a valid email address.",
+        "subject": "Enter a subject.",
+        "message": "Your message must be at least 10 characters.",
+        "consent": "Confirm that you have read the privacy notice to continue."
+      }
+    }
+  },
+  "support": {
+    "metaTitle": "Support and frequently asked questions",
+    "metaDescription": "Frequently asked questions about Tabu Mabu, Score Master and ScanCode, plus the support email.",
+    "title": "Support",
+    "lead": "The most common questions about our apps. If yours isn't here, write to us.",
+    "contactTitle": "Didn't find the answer?",
+    "contactBody": "Tell us which app and which phone you're using, and we can help faster.",
+    "contactCta": "Contact form"
+  },
+  "legal": {
+    "metaTitle": "Contact form privacy notice",
+    "metaDescription": "How the information you send through the ustunsoft contact form is processed.",
+    "title": "Contact form privacy notice",
+    "updated": "Last updated: {date}",
+    "sections": {
+      "controller": {
+        "title": "Data controller",
+        "body": "ustunsoft (Yasin Üstün), Istanbul, Türkiye. Email: {email}"
+      },
+      "data": {
+        "title": "What information is processed",
+        "body": "The name, email address, subject and message you enter in the form. The form asks for nothing else; the site has no analytics tool or tracking cookies."
+      },
+      "purpose": {
+        "title": "Why it is processed",
+        "body": "Only to read your message, reply to you and resolve your support request. Your information is not used for marketing and is not sold."
+      },
+      "basis": {
+        "title": "Legal basis",
+        "body": "Our legitimate interest in answering your request, under Article 5(2)(f) of the Turkish Personal Data Protection Law No. 6698 (KVKK)."
+      },
+      "where": {
+        "title": "Where it is processed",
+        "body": "The form is sent through a service called Web3Forms, and your message is delivered to our inbox as an email. The servers of Web3Forms and of our email provider (Google) may be located outside Türkiye. Your message is not shared with anyone else."
+      },
+      "retention": {
+        "title": "How long it is kept",
+        "body": "Your message is kept in our mailbox for up to two years after the conversation ends and is then deleted. If you want it deleted sooner, just write to us."
+      },
+      "rights": {
+        "title": "Your rights",
+        "body": "Under Article 11 of the Law, you have the right to learn whether your data is processed, to request information about it, to ask for it to be corrected or deleted, to learn which third parties it was transferred to, and to object to the processing. You can send requests to {email}. You also have the right to lodge a complaint with the Turkish Personal Data Protection Board."
+      }
+    },
+    "appsNote": "For data processing in our mobile apps, see the <link>Privacy Policy</link>."
   }
 }

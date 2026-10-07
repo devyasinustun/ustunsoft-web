@@ -50,6 +50,11 @@ export async function Footer() {
                 {t("footer.terms")}
               </a>
             </li>
+            <li>
+              <Link href="/legal/contact-form/" className={linkClass}>
+                {t("footer.contactNotice")}
+              </Link>
+            </li>
           </ul>
         </nav>
 

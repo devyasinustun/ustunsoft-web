@@ -7,7 +7,13 @@ import { AppIcon } from "./AppIcon";
 import { AppStats } from "./AppStats";
 import { PlayBadge } from "./PlayBadge";
 
-export function AppCard({ app }: { app: App }) {
+type AppCardProps = {
+  app: App;
+  // Sayfadaki başlık hiyerarşisine göre seçilir.
+  headingLevel?: "h2" | "h3";
+};
+
+export function AppCard({ app, headingLevel: Heading = "h3" }: AppCardProps) {
   const locale = useLocale() as Locale;
   const t = useTranslations("common");
 
@@ -25,7 +31,7 @@ export function AppCard({ app }: { app: App }) {
               <Tag>{t(`category.${app.category}`)}</Tag>
               {app.status === "coming-soon" && <Tag variant="ink">{t("comingSoon")}</Tag>}
             </div>
-            <h3 className="mt-2 text-2xl leading-tight">
+            <Heading className="mt-2 text-2xl leading-tight">
               {/* Kartın tamamı tıklanır; rozet linki z-index ile üstte kalır. */}
               <Link
                 href={`/apps/${app.slug}/`}
@@ -33,7 +39,7 @@ export function AppCard({ app }: { app: App }) {
               >
                 {app.name[locale]}
               </Link>
-            </h3>
+            </Heading>
           </div>
         </div>
 

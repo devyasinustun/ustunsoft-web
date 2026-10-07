@@ -30,6 +30,7 @@ export function PhoneFrame({
         height={height}
         sizes={sizes}
         preload={preload}
+        fetchPriority={preload ? "high" : undefined}
         className="block h-auto w-full rounded-[1.3rem]"
       />
     </div>

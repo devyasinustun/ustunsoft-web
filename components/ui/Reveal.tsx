@@ -1,6 +1,7 @@
 "use client";
 
-import { animate, inView } from "motion";
+import { inView } from "motion";
+import { animate } from "motion/mini";
 import { useEffect, useRef } from "react";
 
 type RevealProps = {
@@ -27,7 +28,7 @@ export function Reveal({ children, className, delay = 0 }: RevealProps) {
       () => {
         animate(
           element,
-          { opacity: [0, 1], y: [20, 0] },
+          { opacity: [0, 1], transform: ["translateY(20px)", "translateY(0)"] },
           { duration: 0.5, ease: "easeOut", delay },
         );
       },

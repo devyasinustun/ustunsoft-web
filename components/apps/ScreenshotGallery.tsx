@@ -49,7 +49,10 @@ export function ScreenshotGallery({ name, screenshots }: ScreenshotGalleryProps)
                   width={shot.width}
                   height={shot.height}
                   sizes={landscape ? "(min-width: 640px) 28rem, 80vw" : "14rem"}
-                  loading={i < 3 ? "eager" : "lazy"}
+                  // İlk görsel mobilde sayfanın en büyük öğesi (LCP); öncelikli yüklenir.
+                  preload={i === 0}
+                  fetchPriority={i === 0 ? "high" : undefined}
+                  loading={i === 0 ? undefined : "lazy"}
                   className={landscape ? "h-auto w-[min(28rem,80vw)]" : "h-auto w-48 sm:w-56"}
                 />
               </button>

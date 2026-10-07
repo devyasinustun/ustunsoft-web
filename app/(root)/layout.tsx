@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { routing } from "@/i18n/routing";
+import { SITE_ICONS } from "@/lib/seo";
 import { LOCALE_STORAGE_KEY, SITE_NAME, SITE_URL } from "@/lib/site";
 import "../globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: SITE_NAME,
+  icons: SITE_ICONS,
   alternates: {
     canonical: "/",
     languages: { tr: "/tr/", en: "/en/", "x-default": "/" },

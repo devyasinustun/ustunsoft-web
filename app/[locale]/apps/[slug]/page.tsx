@@ -6,12 +6,13 @@ import { notFound } from "next/navigation";
 import { AppIcon } from "@/components/apps/AppIcon";
 import { PlayBadge } from "@/components/apps/PlayBadge";
 import { ScreenshotGallery } from "@/components/apps/ScreenshotGallery";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { Container } from "@/components/ui/Container";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { getAppBySlug, getApps } from "@/lib/apps";
 import { formatCount, formatMonth, formatRating } from "@/lib/format";
-import { localizedAlternates } from "@/lib/seo";
+import { mobileApplicationJsonLd, pageMetadata, withSiteName } from "@/lib/seo";
 import { CONTACT_EMAIL, PRIVACY_PATH, TERMS_PATH } from "@/lib/site";
 
 export const dynamicParams = false;
@@ -27,11 +28,13 @@ export async function generateMetadata({
   const app = await getAppBySlug(slug);
   if (!app || !hasLocale(routing.locales, locale)) return {};
 
-  return {
+  return pageMetadata({
+    locale,
+    path: `/apps/${app.slug}/`,
     title: app.name[locale],
+    socialTitle: withSiteName(app.name[locale]),
     description: app.shortDescription[locale],
-    alternates: localizedAlternates(locale, `/apps/${app.slug}/`),
-  };
+  });
 }
 
 export default async function AppDetailPage({ params }: PageProps<"/[locale]/apps/[slug]">) {
@@ -68,6 +71,7 @@ export default async function AppDetailPage({ params }: PageProps<"/[locale]/app
 
   return (
     <article style={{ "--accent": app.accentColor } as React.CSSProperties}>
+      <JsonLd data={mobileApplicationJsonLd(app, locale)} />
       {/* accentColor beyaz metinle AA kontrastını geçecek şekilde seçilir. */}
       <header className="on-ink bg-(--accent) text-white">
         <Container className="py-10 lg:py-16">
@@ -80,7 +84,7 @@ export default async function AppDetailPage({ params }: PageProps<"/[locale]/app
           </Link>
 
           <div className="mt-8 flex flex-col gap-6 sm:flex-row sm:items-center sm:gap-8">
-            <AppIcon app={app} size={128} preload className="border-4 border-white" />
+            <AppIcon app={app} size={128} className="border-4 border-white" />
             <div className="min-w-0">
               {!published && (
                 <p className="mb-3 inline-block rounded-full bg-ink px-3 py-1 text-sm font-semibold">

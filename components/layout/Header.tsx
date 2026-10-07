@@ -13,8 +13,9 @@ export async function Header() {
   return (
     <header className="relative border-b border-line bg-paper">
       <Container className="flex h-16 items-center justify-between gap-6">
-        <Link href="/" aria-label={t("home")} className="shrink-0">
+        <Link href="/" className="shrink-0">
           <Wordmark />
+          <span className="sr-only">: {t("home")}</span>
         </Link>
 
         <nav aria-label={t("label")} className="hidden md:block">
