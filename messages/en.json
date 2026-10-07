@@ -5,7 +5,17 @@
   },
   "common": {
     "skipToContent": "Skip to content",
-    "comingSoon": "Coming soon"
+    "comingSoon": "Coming soon",
+    "comingSoonOnPlay": "Coming soon to Google Play",
+    "playBadgeAlt": "Get it on Google Play",
+    "playBadgeLabel": "{name}: get it on Google Play",
+    "category": {
+      "game": "Game",
+      "app": "App"
+    },
+    "downloads": "{count} downloads",
+    "rating": "{rating} rating",
+    "ratingLabel": "Google Play rating: {rating} out of 5"
   },
   "nav": {
     "label": "Main menu",
@@ -33,7 +43,93 @@
     "rights": "© {year} ustunsoft. All rights reserved."
   },
   "home": {
-    "placeholderTitle": "Apps worth the space on your phone.",
-    "placeholderBody": "The site is being built. For now, our apps are listed here."
+    "hero": {
+      "eyebrow": "Mobile apps and games from Istanbul",
+      "title": "Small apps that know their job.",
+      "body": "A word game for game night, a counter for keeping score. No sign-ups, and your game and score data stays on your device.",
+      "primaryCta": "Explore the apps",
+      "secondaryCta": "Contact",
+      "screenshotAlt": "A screenshot from {name}"
+    },
+    "featured": {
+      "title": "Featured",
+      "all": "All apps",
+      "details": "Details",
+      "upcoming": "Up next"
+    },
+    "stats": {
+      "title": "In numbers",
+      "downloads": "total downloads on Google Play",
+      "published": "published apps",
+      "ratingSingle": "{name}'s rating on Google Play",
+      "ratingAverage": "average rating on Google Play"
+    },
+    "approach": {
+      "title": "How we build",
+      "intro": "Four rules. The same in every app.",
+      "items": {
+        "account": {
+          "title": "No account needed",
+          "body": "Download, open, use. No sign-up form, no password, no email verification."
+        },
+        "device": {
+          "title": "Your data stays on your device",
+          "body": "Your game and score data is stored on your phone, and nothing is sent to our servers. Free versions show Google AdMob ads; the Privacy Policy has the details."
+        },
+        "offline": {
+          "title": "Plays offline",
+          "body": "Tabu Mabu needs no connection. It works on the road, in the mountains, or in a living room with no signal."
+        },
+        "simple": {
+          "title": "A plain interface",
+          "body": "One job per screen. You start playing without getting lost in settings."
+        }
+      }
+    },
+    "cta": {
+      "title": "Have a question or a suggestion?",
+      "body": "Write to us. We read and reply.",
+      "primary": "Write to us",
+      "secondary": "Browse the apps"
+    }
+  },
+  "apps": {
+    "metaTitle": "Apps",
+    "metaDescription": "ustunsoft's games and apps on Google Play: Tabu Mabu, Score Master, and what's coming next.",
+    "title": "Apps",
+    "intro": "Everything that's published and everything on the way.",
+    "filterLabel": "Filter by category",
+    "filter": {
+      "all": "All",
+      "game": "Games",
+      "app": "Apps"
+    },
+    "count": "{count, plural, one {# result} other {# results}}"
+  },
+  "appDetail": {
+    "back": "All apps",
+    "screenshots": "Screenshots",
+    "features": "Features",
+    "about": "Description",
+    "info": "Details",
+    "category": "Category",
+    "downloads": "Downloads",
+    "rating": "Rating",
+    "ageRating": "Age rating",
+    "updated": "Last updated",
+    "support": "Support",
+    "supportBody": "Running into a problem? Send us an email.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "comingSoonNote": "This app isn't published yet. The download link will be here once it is.",
+    "gallery": {
+      "open": "Screenshot {index} of {total}: enlarge",
+      "alt": "{name} screenshot {index}",
+      "dialog": "{name} screenshots",
+      "close": "Close",
+      "previous": "Previous",
+      "next": "Next",
+      "position": "{index} / {total}"
+    }
   }
 }
