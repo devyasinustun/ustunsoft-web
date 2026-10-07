@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ustunsoft.com
 
-## Getting Started
+ustunsoft'un kurumsal sitesi. Next.js ile statik olarak üretilir (`output: "export"`) ve GitHub Pages üzerinden https://ustunsoft.com adresinde yayınlanır. Site Türkçe (`/tr/`) ve İngilizce (`/en/`) olarak iki dildedir.
 
-First, run the development server:
+## Dokunulmaz dosyalar
 
-```bash
+Yayındaki uygulamalar ve AdMob şu üç adrese bağlıdır. Adlarını, yerlerini ve içeriklerini değiştirmeyin; formatlamayın:
+
+| Adres                | Kaynak                     |
+| -------------------- | -------------------------- |
+| `/docs/privacy.html` | `public/docs/privacy.html` |
+| `/docs/terms.html`   | `public/docs/terms.html`   |
+| `/app-ads.txt`       | `public/app-ads.txt`       |
+
+- `app/` altında `docs` adında bir route oluşturmayın.
+- `next.config.ts`'e `basePath` eklemeyin.
+- `npm run verify` bu üç dosyanın build çıktısında kaynaklarıyla birebir aynı olduğunu kontrol eder. Geçmiyorsa yayına çıkmayın.
+
+## Yerelde çalıştırma
+
+Node.js 24 veya üstü gerekir.
+
+```powershell
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Site http://localhost:3000 adresinde açılır. Kök adres tarayıcı diline göre `/tr/` ya da `/en/`'e yönlendirir.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+İletişim formunu yerelde görmek için kökte `.env.local` dosyası oluşturun:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+NEXT_PUBLIC_WEB3FORMS_KEY=web3forms-anahtarınız
+```
 
-## Learn More
+Anahtar yoksa form yerine e-posta linki görünür; build kırılmaz.
 
-To learn more about Next.js, take a look at the following resources:
+## Build ve doğrulama
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Her commit'ten önce üçü de hatasız geçmelidir:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```powershell
+npm run lint
+npm run build
+npm run verify
+```
 
-## Deploy on Vercel
+- Build çıktısı `out/` klasörüne yazılır.
+- `npm run format` Prettier'ı çalıştırır.
+- Çıktıya yerelde bakmak için: `npx http-server out -p 8080`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Yeni uygulama ekleme
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. `content/apps.json` dosyasına yeni bir kayıt ekleyin. Alanlar `types/app.ts` içindeki şemayla doğrulanır; eksik ya da hatalı alan build'i durdurur. Metin alanları (`name`, `shortDescription`, `description`, `features`) hem `tr` hem `en` ister.
+2. Görseller için `scripts/fetch-images.mjs` içindeki `SOURCES` listesine uygulamanın slug'ını, Google Play ikon ve ekran görüntüsü ID'lerini ekleyin, sonra çalıştırın:
+
+   ```powershell
+   node scripts/fetch-images.mjs
+   ```
+
+   Betik görselleri `public/apps/<slug>/` altına WebP olarak yazar ve her ekran görüntüsünün boyutunu ekrana basar. Bu `src`, `width`, `height` değerlerini `apps.json`'daki `screenshots` listesine, ikon yolunu `icon` alanına yazın.
+
+3. `accentColor` için ikonla uyumlu, beyaz metinle en az 4.5:1 kontrast veren bir renk seçin. Betiğin önerdiği renk ikonun arka planını yakalayabilir; gözle kontrol edin.
+4. Destek sayfasında sık sorulan sorular görünsün istiyorsanız `content/faq.json`'a aynı slug ile bir grup ekleyin.
+5. Uygulama gizlilik politikasının kapsamında değilse önce `public/docs/privacy.html` güncellenmelidir. Bu dosyaya yalnızca site sahibi karar verir.
+
+Ana sayfadaki rakamlar (toplam indirme, yayındaki uygulama sayısı, puan) `apps.json`'dan hesaplanır; elle yazılmaz.
+
+## Yakında (coming-soon) bir uygulamayı yayına alma
+
+`content/apps.json` içinde ilgili kayıtta:
+
+1. `status` değerini `"published"` yapın.
+2. `playUrl` ekleyin: `https://play.google.com/store/apps/details?id=<packageName>`
+3. `stats` (`downloads`, varsa `rating`), `ageRating` ve `updatedAt` (`YYYY-AA`) alanlarını doldurun.
+4. İkon ve ekran görüntülerini yukarıdaki betikle indirip `icon` ve `screenshots` alanlarını doldurun; `accentColor`'u ikona göre güncelleyin.
+5. Geçici `shortDescription` ve `description` metinlerini mağazadaki metinlerle değiştirin.
+6. Ana sayfada öne çıksın istiyorsanız `featured` değerini `true` yapın (ana sayfa ilk iki öne çıkan uygulamayı gösterir).
+7. `content/faq.json`'daki soruları gözden geçirin.
+
+`published` bir kayıtta `playUrl` yoksa build hata verir.
+
+## Proje yapısı
+
+| Klasör        | İçerik                                                                    |
+| ------------- | ------------------------------------------------------------------------- |
+| `app/`        | Sayfalar. `(root)/` kök yönlendirme, `[locale]/` dilli sayfalar           |
+| `components/` | Arayüz bileşenleri                                                        |
+| `content/`    | `apps.json` (uygulamalar), `faq.json` (sık sorulan sorular)               |
+| `lib/`        | Veri erişimi (`apps.ts`), istatistik, SEO ve biçimleme yardımcıları       |
+| `messages/`   | Arayüz metinleri: `tr.json`, `en.json`. Her anahtar iki dosyada da olmalı |
+| `types/`      | Uygulama verisinin zod şeması                                             |
+| `scripts/`    | `verify-static.mjs`, `fetch-images.mjs`, `make-brand-assets.mjs`          |
+
+Bileşenler `apps.json`'u doğrudan içe aktarmaz; veri yalnızca `lib/apps.ts` üzerinden okunur.
+
+## Yayın
+
+- `main` dalı yayındaki haldir. `main`'e yapılan her push `.github/workflows/deploy.yml` ile siteyi yayınlar.
+- `main`'e doğrudan commit atılmaz. Her iş ayrı dalda (`feat/…`, `fix/…`, `content/…`, `chore/…`) yapılır ve PR ile girer; PR'da CI (lint, build, verify) yeşil olmalıdır.
+- İletişim formunun anahtarı GitHub'da `WEB3FORMS_KEY` secret'ı olarak durur ve build sırasında okunur.
