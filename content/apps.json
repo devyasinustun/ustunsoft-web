@@ -169,34 +169,85 @@
       "en": "ScanCode: QR & Barcode Scanner"
     },
     "category": "app",
-    "status": "coming-soon",
+    "status": "published",
     "featured": false,
     "order": 3,
-    "accentColor": "#0f7b4f",
+    "accentColor": "#b8145f",
+    "playUrl": "https://play.google.com/store/apps/details?id=com.ustunsoft.scancode",
     "shortDescription": {
-      "tr": "QR kod ve barkodları kamerayla tara, kendi kodunu üret.",
-      "en": "Scan QR codes and barcodes with your camera, and create your own."
+      "tr": "QR kod ve barkod okuyucu. Hızlı tara, QR kod oluştur. İnternetsiz çalışır.",
+      "en": "Fast QR code scanner & barcode reader. Create QR codes. Works offline."
     },
     "description": {
-      "tr": "ScanCode, QR kod ve barkodları kamerayla tarayan ve kendi kodunuzu üretmenizi sağlayan bir uygulama. Tarama geçmişi yalnızca cihazınızda tutulur.",
-      "en": "ScanCode scans QR codes and barcodes with your camera and lets you create your own codes. Your scan history is kept only on your device."
+      "tr": "Kod Tara, hızlı ve sade bir QR kod okuyucu ve barkod okuyucu. Kamerayı koda doğrult, saniyesinde okusun; internet bağlantısı gerekmez.\n\nAynı uygulama bir QR kod oluşturucu: Wi-Fi şifreni, kartvizitini ya da bağlantını birkaç dokunuşla koda çevir, görsel olarak paylaş.\n\nHIZLI VE İNTERNETSİZ TARAMA\n• Karekod okuyucu ve barkod tarayıcı tek ekranda: QR, Data Matrix, Aztec, PDF417, EAN-13, EAN-8, UPC-A, UPC-E, Code 39, Code 93, Code 128, ITF ve Codabar\n• Okuma telefonda yapılır; metroda, uçakta, yurt dışında internetsiz çalışır\n• Karanlıkta fener, uzaktaki kod için yakınlaştırma, ön ve arka kamera\n• Tarama sınırsız ve ücretsiz\n\nEKRAN GÖRÜNTÜSÜNDEN VE GALERİDEN OKU\n• Kod ekran görüntüsünde mi? Görseli galeriden seç ya da başka bir uygulamadan \"Paylaş\" ile Kod Tara'ya gönder\n• Bir görselde birden fazla kod varsa hangisini açacağını sen seçersin\n• Depolama izni istemez; yalnızca seçtiğin görsel okunur\n\nOKUNAN KODLA NE YAPILACAĞINI BİLİR\n• Bağlantıyı açar, Wi-Fi şifresini kopyalar, kişiyi rehbere ekler\n• E-postayı ve SMS'i hazırlar, numarayı arar, konumu haritada açar, etkinliği takvime ekler\n• Ürün barkodunu internette arar\n\nŞÜPHELİ BAĞLANTIDA UYARIR\n• Kısaltılmış, şifresiz (http) ya da başka bir siteyi taklit eden adresleri açmadan önce gösterir\n• Gideceğin sitenin gerçek adresini görürsün, kararı sen verirsin\n\nQR KOD OLUŞTURUCU\n• Metin, web adresi, Wi-Fi, kişi kartı, e-posta, SMS, telefon ve konum için QR kod\n• EAN-13, EAN-8, Code 128, Code 39 ve ITF barkodu\n• Kodu galeriye kaydet ya da görsel ve metin olarak paylaş\n• Görselin altında ne yazacağı senin elinde; Wi-Fi şifresi görsele yazı olarak hiç eklenmez\n\nTOPLU KOD ÜRETİMİ (PREMIUM)\n• Tek seferde 500'e kadar QR kod ya da barkod: listeyi elle yaz ya da Excel / CSV dosyasından aktar\n• Hatalı satırları üretmeden önce nedenleriyle gösterir\n• Yazdırılabilir PDF etiket sayfası, ayrı görseller (ZIP) ya da Excel listesi olarak dışa aktar\n\nGEÇMİŞ\n• Okuduğun ve ürettiğin kodlar telefonunda saklanır; sonradan yeniden açar ya da paylaşırsın\n\nGİZLİLİK\n• Kamera görüntüleri hiçbir yere kaydedilmez ve gönderilmez\n• Geçmişin yalnızca kendi telefonunda durur\n• Hesap açmak gerekmez\n\nÜCRETSİZ VE PREMIUM\nTarama her zaman sınırsız ve ücretsizdir. Ücretsiz sürümde günde 5 kod üretebilir, kısa bir reklam izleyerek ek hak kazanabilirsin; geçmişte son 20 kayıt tutulur.\n\nPremium tek seferlik bir ödemedir, abonelik değildir:\n• Reklamsız kullanım\n• Sınırsız kod üretimi\n• Toplu kod üretimi ve PDF etiket sayfası\n• Sınırsız geçmiş\n• Geçmişte arama ve favoriler\n• Geçmişi Excel dosyası olarak dışa aktarma",
+      "en": "Scan Code is a fast QR code scanner and barcode reader that works without internet. Point your camera, get the result instantly, and pick what to do next.\n\nIt is also a QR code generator: turn a link, your Wi-Fi or your contact details into a code and share it as an image.\n\nA QR SCANNER THAT WORKS OFFLINE\n• Reads QR codes, Data Matrix, Aztec, PDF417, EAN-13, EAN-8, UPC-A, UPC-E, Code 39, Code 93, Code 128, ITF and Codabar\n• Codes are decoded on your phone: on the subway, on a plane, abroad\n• Flashlight for dark places, pinch to zoom, front and back camera\n• Unlimited scans, free\n\nSCAN FROM SCREENSHOTS AND PHOTOS\n• QR code in a screenshot? Pick the image from your gallery, or share it to Scan Code from any app\n• Several codes in one picture? Choose the one you want\n• No storage permission needed. Only the image you pick is read\n\nONE TAP TO THE RIGHT ACTION\n• Open links, copy Wi-Fi passwords, save contacts\n• Write an email or a text, call a number, open a location in maps, add an event to your calendar\n• Look up a product by its barcode\n\nCHECK LINKS BEFORE YOU OPEN THEM\n• Warns you about shortened links, unencrypted (http) pages and look-alike domains\n• Shows the real site you are about to visit, so you decide\n\nQR CODE GENERATOR\n• Create QR codes for text, websites, Wi-Fi, contacts, email, SMS, phone numbers and locations\n• Make EAN-13, EAN-8, Code 128, Code 39 and ITF barcodes\n• Save to your gallery, or share as an image or as text\n• You choose what is printed under the code. Wi-Fi passwords are never written on the image as text\n\nBULK QR CODE & BARCODE GENERATOR (PREMIUM)\n• Up to 500 codes in one go: type a list or import it from Excel or CSV\n• Rows with mistakes are flagged, with the reason, before anything is created\n• Export a printable PDF label sheet, a ZIP of images, or an Excel list\n\nHISTORY\n• Scanned and created codes stay on your phone, ready to reopen or share\n\nPRIVATE BY DESIGN\n• Camera frames are never stored or uploaded\n• Your history never leaves your device\n• No account, no sign-up\n\nFREE AND PREMIUM\nScanning is always free and unlimited. The free version lets you create 5 codes a day (watch a short ad for more) and keeps your last 20 history items.\n\nPremium is a one-time purchase, not a subscription:\n• No ads\n• Unlimited code creation\n• Bulk code creation with printable label sheets\n• Unlimited history\n• Search and favorites in history\n• Export your history to Excel"
     },
     "features": {
       "tr": [
-        "Kamerayla QR ve barkod tarama",
-        "Kod üretme",
-        "Tarama geçmişi yalnızca cihazda",
-        "Şüpheli adres uyarısı",
-        "Tek seferlik satın almayla reklamsız kullanım"
+        "İnternetsiz QR kod ve barkod tarama",
+        "Galeriden ve ekran görüntüsünden okuma",
+        "Şüpheli bağlantıda açmadan önce uyarı",
+        "Wi-Fi, kişi kartı, bağlantı ve daha fazlası için QR kod üretme",
+        "EAN-13, EAN-8, Code 128, Code 39 ve ITF barkodu üretme",
+        "Geçmiş yalnızca cihazınızda saklanır",
+        "Hesap gerekmez",
+        "Tek seferlik satın almayla reklamsız kullanım ve toplu kod üretimi"
       ],
       "en": [
-        "QR and barcode scanning with the camera",
-        "Code generation",
-        "Scan history stays on the device only",
-        "Warning for suspicious addresses",
-        "Ad-free use with a one-time purchase"
+        "QR code and barcode scanning that works offline",
+        "Reads codes from your gallery and screenshots",
+        "Warns you before opening a suspicious link",
+        "QR codes for Wi-Fi, contacts, links and more",
+        "EAN-13, EAN-8, Code 128, Code 39 and ITF barcodes",
+        "History is stored only on your device",
+        "No account needed",
+        "One-time purchase for no ads and bulk code creation"
       ]
     },
-    "screenshots": []
+    "ageRating": "3+",
+    "updatedAt": "2026-10",
+    "icon": "/apps/scancode/icon.webp",
+    "screenshots": [
+      {
+        "src": "/apps/scancode/screenshot-1.webp",
+        "width": 608,
+        "height": 1080
+      },
+      {
+        "src": "/apps/scancode/screenshot-2.webp",
+        "width": 608,
+        "height": 1080
+      },
+      {
+        "src": "/apps/scancode/screenshot-3.webp",
+        "width": 608,
+        "height": 1080
+      },
+      {
+        "src": "/apps/scancode/screenshot-4.webp",
+        "width": 608,
+        "height": 1080
+      },
+      {
+        "src": "/apps/scancode/screenshot-5.webp",
+        "width": 608,
+        "height": 1080
+      },
+      {
+        "src": "/apps/scancode/screenshot-6.webp",
+        "width": 608,
+        "height": 1080
+      },
+      {
+        "src": "/apps/scancode/screenshot-7.webp",
+        "width": 608,
+        "height": 1080
+      },
+      {
+        "src": "/apps/scancode/screenshot-8.webp",
+        "width": 608,
+        "height": 1080
+      }
+    ]
   }
 ]

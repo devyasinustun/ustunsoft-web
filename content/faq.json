@@ -114,18 +114,28 @@
     "items": [
       {
         "q": {
-          "tr": "ScanCode ne zaman yayınlanacak?",
-          "en": "When will ScanCode be released?"
+          "tr": "ScanCode internet olmadan çalışır mı?",
+          "en": "Does ScanCode work without internet?"
         },
         "a": {
-          "tr": "Uygulama yakında Google Play'de olacak. Kesin bir tarih vermiyoruz; yayına girdiğinde bu sitede indirme bağlantısı görünecek.",
-          "en": "The app will be on Google Play soon. We're not giving an exact date; the download link will appear on this site once it's out."
+          "tr": "Evet. Kodlar telefonda okunur; tarama için bağlantı gerekmez. Okunan bir bağlantıyı açmak ya da ürün barkodunu internette aramak için bağlantı gerekir.",
+          "en": "Yes. Codes are decoded on your phone, so scanning needs no connection. You do need one to open a scanned link or look up a product barcode online."
         }
       },
       {
         "q": {
-          "tr": "Tarama geçmişim nerede tutulacak?",
-          "en": "Where will my scan history be kept?"
+          "tr": "Ekran görüntüsündeki bir kodu okuyabilir miyim?",
+          "en": "Can I scan a code from a screenshot?"
+        },
+        "a": {
+          "tr": "Evet. Görseli galeriden seçin ya da başka bir uygulamadan “Paylaş” ile ScanCode'a gönderin. Depolama izni istenmez; yalnızca seçtiğiniz görsel okunur.",
+          "en": "Yes. Pick the image from your gallery, or share it to ScanCode from another app. No storage permission is requested; only the image you pick is read."
+        }
+      },
+      {
+        "q": {
+          "tr": "Tarama geçmişim nerede tutuluyor?",
+          "en": "Where is my scan history kept?"
         },
         "a": {
           "tr": "Yalnızca cihazınızda. Taradığınız ve ürettiğiniz kodlar sunucumuza gönderilmez.",
@@ -134,12 +144,22 @@
       },
       {
         "q": {
-          "tr": "Reklamsız kullanılabilecek mi?",
-          "en": "Will there be an ad-free option?"
+          "tr": "Ücretsiz sürümde sınır var mı?",
+          "en": "Are there limits in the free version?"
         },
         "a": {
-          "tr": "Evet. Tek seferlik bir satın almayla reklamlar kaldırılabilecek.",
-          "en": "Yes. Ads can be removed with a one-time purchase."
+          "tr": "Tarama sınırsız ve ücretsizdir. Ücretsiz sürümde günde 5 kod üretebilirsiniz; kısa bir reklam izleyerek ek hak kazanılır. Geçmişte son 20 kayıt tutulur.",
+          "en": "Scanning is free and unlimited. The free version lets you create 5 codes a day, with more available by watching a short ad. History keeps your last 20 items."
+        }
+      },
+      {
+        "q": {
+          "tr": "Premium abonelik mi?",
+          "en": "Is Premium a subscription?"
+        },
+        "a": {
+          "tr": "Hayır, tek seferlik bir satın alma. Reklamları kaldırır; sınırsız kod üretimi, toplu kod üretimi ve sınırsız geçmiş açılır.",
+          "en": "No, it's a one-time purchase. It removes ads and unlocks unlimited code creation, bulk code creation and unlimited history."
         }
       }
     ]
