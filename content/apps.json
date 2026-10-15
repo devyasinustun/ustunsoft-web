@@ -100,7 +100,7 @@
     },
     "description": {
       "tr": "Kağıt kalem aramaya son! Score Master, arkadaşlarınızla oynadığınız tüm kart, masa ve kutu oyunlarında skor tutma deneyimini fütüristik ve şık bir boyuta taşıyor.\n\nİster 101, Okey, Batak gibi oyunlar; ister Scrabble, Tabu veya FRP gibi masa oyunları oynayın. Score Master'ın esnek altyapısı her türlü kurala uyum sağlayarak oyun gecelerinizin vazgeçilmezi olacak.\n\nÖNE ÇIKAN ÖZELLİKLER:\n\nEsnek Oyun Kuralları: Her oyunun kazananı farklıdır! Oyun kurulumunda isterseniz \"En Yüksek Skor Kazanır\", isterseniz \"En Düşük Skor Kazanır\" (okey/yazboz türü oyunlar için) kuralını seçerek uygulamanın şampiyonu otomatik belirlemesini sağlayın.\n\nPremium Siberpunk Avatarlar: Oyuncuları sadece isimleriyle değil; yüksek çözünürlüklü, neon ışıklı ve detaylı siberpunk avatarlarla temsil edin. Kendi karakterinizi seçin ve liderlik tablosunda tarzınızı yansıtın.\n\nGerçek Zamanlı Hesaplama: Skorları girdiğiniz anda toplam puanlar ve sıralama anında güncellenir. Ekstra kaydetme butonlarına basmanıza veya hesap makinesi kullanmanıza gerek kalmaz. Eksili (negatif) skor girişleri de tam desteklenir.\n\nOyun Geçmişi ve Devam Etme: Oyununuz yarım mı kaldı? Hiç sorun değil. Cihazınıza otomatik kaydedilen oyun oturumlarına \"Geçmiş\" (History) ekranından ulaşabilir ve bitmemiş oyunlarınıza kaldığınız yerden anında devam edebilirsiniz.\n\nŞampiyonu Paylaş: Oyun bittiğinde kazananı şık bir \"Şampiyonluk Kartı\" ile kutlayın. Tek bir tuşla, kesintisiz ve şık tasarımlı liderlik tablosunu doğrudan arkadaşlarınızla veya sosyal medyada paylaşın.\n\nKaranlık teması, cam efekti (glassmorphism) tasarımları ve neon detaylarıyla Score Master sıradan bir hesaplayıcı değil, oyun deneyiminizin bir parçasıdır.\n\nHemen indirin, skor tutma derdini Score Master'a bırakın ve oyunun tadını çıkarın!",
-      "en": "Ditch the pen and paper! Score Master takes your game nights to a futuristic and stylish new level. Track scores for card games, board games, and tabletop RPGs with ease.\n\nWhether you're playing Rummy, Spades, Scrabble, or custom party games, Score Master’s flexible engine adapts to your rules and becomes the ultimate companion for your game nights.\n\nKEY FEATURES:\n\nFlexible Winning Rules: Every game is different! Choose \"High Score Wins\" or \"Low Score Wins\" during setup, and let the app automatically crown the true champion.\n\nPremium Cyberpunk Avatars: Don't just be a name on a screen. Choose from high-quality, neon-lit cyberpunk avatars to represent your player profile and show off your style on the leaderboard.\n\nReal-Time Calculation: Enter your scores and watch the leaderboard update instantly. No extra save buttons or calculators needed. Negative scores are fully supported!\n\nGame History & Resume: Game interrupted? No problem. Sessions are automatically saved to your device. Access your past games in the \"History\" tab and resume unfinished matches anytime.\n\nShare the Champion: Celebrate the winner with a sleek \"Champion Card\". Share the complete, beautifully designed leaderboard directly with friends or on social media with a single tap.\n\nWith its dark theme, glassmorphism UI, and neon details, Score Master isn't just a calculator—it's part of the gaming experience.\n\nDownload now, leave the math to Score Master, and enjoy the game!"
+      "en": "Ditch the pen and paper! Score Master takes your game nights to a futuristic and stylish new level. Track scores for card games, board games, and tabletop RPGs with ease.\n\nWhether you're playing Rummy, Spades, Scrabble, or custom party games, Score Master's flexible engine adapts to your rules and becomes the ultimate companion for your game nights.\n\nKEY FEATURES:\n\nFlexible Winning Rules: Every game is different! Choose \"High Score Wins\" or \"Low Score Wins\" during setup, and let the app automatically crown the true champion.\n\nPremium Cyberpunk Avatars: Don't just be a name on a screen. Choose from high-quality, neon-lit cyberpunk avatars to represent your player profile and show off your style on the leaderboard.\n\nReal-Time Calculation: Enter your scores and watch the leaderboard update instantly. No extra save buttons or calculators needed. Negative scores are fully supported!\n\nGame History & Resume: Game interrupted? No problem. Sessions are automatically saved to your device. Access your past games in the \"History\" tab and resume unfinished matches anytime.\n\nShare the Champion: Celebrate the winner with a sleek \"Champion Card\". Share the complete, beautifully designed leaderboard directly with friends or on social media with a single tap.\n\nWith its dark theme, glassmorphism UI, and neon details, Score Master isn't just a calculator—it's part of the gaming experience.\n\nDownload now, leave the math to Score Master, and enjoy the game!"
     },
     "features": {
       "tr": [
@@ -249,5 +249,45 @@
         "height": 1080
       }
     ]
+  },
+  {
+    "slug": "okeyro",
+    "packageName": "com.ustunsoft.okeyro",
+    "name": {
+      "tr": "Okeyro",
+      "en": "Okeyro"
+    },
+    "category": "game",
+    "status": "coming-soon",
+    "featured": false,
+    "order": 4,
+    "accentColor": "#2f6b2f",
+    "shortDescription": {
+      "tr": "Tek kişilik okey. Run'lar, yancılar ve torbalarla.",
+      "en": "Single-player okey, built around runs, kibitzers and bags."
+    },
+    "description": {
+      "tr": "Okeyro, tek başına oynanan bir okey oyunu. Oyun run'lar üzerine kurulu; oynadıkça yeni yancılar ve torbalar açılır.\n\nHesap açman gerekmez. Oyun ilerlemen ve istatistiklerin telefonunda kalır, sunucumuza gönderilmez.\n\nOyun ücretsiz. Reklamları Kaldır ve Kahvehane Paketi uygulama içinden satın alınabilir.",
+      "en": "Okeyro is a single-player okey game. It is built around runs, and new kibitzers and bags unlock as you play.\n\nNo account needed. Your progress and statistics stay on your phone and are never sent to our servers.\n\nThe game is free. Remove Ads and the Coffeehouse Pack are available as in-app purchases."
+    },
+    "features": {
+      "tr": [
+        "Tek kişilik okey",
+        "Run'lar üzerine kurulu oyun",
+        "Oynadıkça açılan yancılar ve torbalar",
+        "İlerleme ve istatistikler cihazında kalır",
+        "Hesap gerekmez",
+        "Reklamları Kaldır ve Kahvehane Paketi"
+      ],
+      "en": [
+        "Single-player okey",
+        "Built around runs",
+        "Kibitzers and bags that unlock as you play",
+        "Progress and statistics stay on your device",
+        "No account needed",
+        "Remove Ads and the Coffeehouse Pack"
+      ]
+    },
+    "screenshots": []
   }
 ]
