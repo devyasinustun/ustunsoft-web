@@ -163,5 +163,60 @@
         }
       }
     ]
+  },
+  {
+    "slug": "okeyro",
+    "items": [
+      {
+        "q": {
+          "tr": "Okeyro internet olmadan oynanır mı?",
+          "en": "Does Okeyro work without internet?"
+        },
+        "a": {
+          "tr": "Evet. Oyun tamamen tek kişilik; bağlantı olmadan da oynanır.",
+          "en": "Yes. The game is fully single-player and plays offline."
+        }
+      },
+      {
+        "q": {
+          "tr": "İlerlemem nerede tutuluyor?",
+          "en": "Where is my progress kept?"
+        },
+        "a": {
+          "tr": "Yalnızca cihazınızda. Devam eden run, açtığınız yancılar ve torbalar sunucumuza gönderilmez; hesap da gerekmez.",
+          "en": "Only on your device. The run in progress and the kibitzers and bags you've unlocked are never sent to our servers, and no account is needed."
+        }
+      },
+      {
+        "q": {
+          "tr": "Oyunda hangi reklamlar var?",
+          "en": "What ads does the game show?"
+        },
+        "a": {
+          "tr": "Ekranın üstünde küçük bir banner var. Ödüllü reklam yalnızca siz isterseniz, yeniden dağıtmak için izlenir. Tam ekran reklam run'ı bölmez; yalnızca run bittikten sonra çıkabilir.",
+          "en": "A small banner sits at the top of the screen. Rewarded ads play only when you ask, to redeal. Full-screen ads never interrupt a run; one may appear only after a run ends."
+        }
+      },
+      {
+        "q": {
+          "tr": "Satın alımlar oyunu kolaylaştırır mı?",
+          "en": "Do purchases make the game easier?"
+        },
+        "a": {
+          "tr": "Hayır. Reklamları Kaldır reklamları kaldırır, Kahvehane Paketi kilitli yancı ve torbaları hemen açar, setler yalnızca masanın görünümünü değiştirir. Rastgele içerikli ücretli paket yoktur.",
+          "en": "No. Remove Ads removes the ads, the Coffeehouse Pack unlocks every locked kibitzer and bag at once, and the sets only change how the table looks. There are no paid packs with random contents."
+        }
+      },
+      {
+        "q": {
+          "tr": "Satın aldığım ürünler yeni telefonuma geçer mi?",
+          "en": "Will my purchases carry over to a new phone?"
+        },
+        "a": {
+          "tr": "Evet. Satın alımlar Google hesabınıza bağlıdır; aynı hesapla giriş yaptığınız cihazlarda geri yüklenir.",
+          "en": "Yes. Purchases are tied to your Google account and are restored on any device signed in with it."
+        }
+      }
+    ]
   }
 ]
