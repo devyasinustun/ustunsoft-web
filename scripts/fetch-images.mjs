@@ -43,6 +43,20 @@ const SOURCES = {
       "FauhHKUgm63QmHShyzOmY7qE3PGJZe1XLCwviSTncRKmaWTx8wAb0zuoZyCFg9MvpxF7K-HQHfECE4cvF1yd",
     ],
   },
+  // Mağazadaki Türkçe telefon ekran görüntüleri.
+  okeyro: {
+    icon: "QK7Q4XJ-jgTgf8q95PBC6ymkmOEm0UkvFSNcnb4jwMVQfKRJd5vhbtJMO5HIIwMOPY9F_yeo31amTL-apUGt0kw",
+    screenshots: [
+      "SN0TZu1dHTn-djEvoyJyQSrVxCSWoSuEKE9rnN1UpLOXXHpfJsitLpcpG6r0hFJCKATPWHdz8uyzbpGcpGKHw2E",
+      "IPPYRs5phQ8ps9WB6evckpu062Em3u2AJyWa2-ePwA9XbTeFmNGXC1f_Ou7Cviw6xjQCfndLXqaVNgPBtQWVqw",
+      "RU-bp-oz2NJ9LRmJ90hE8_SEiLQwStG6TtuJR_PUL7Xcpss6X7KdAlX-7B50FURmQjFgnEy2nP2-d5YF2LPoCA",
+      "YtE8hNojBFNGFvry6L5MjgYII2aaQoGwr0OXO8ruLvp6cJCo3DQS1KAYNPn0bO8LbgquX3RyHXOfvt_q7Fwu",
+      "PeSBIXAyd6B5mQcu04yTQhIWbb2Hq_8GOVzGYeMOCYex5aBrjU5Iw8UQZQjXhnqOduRRgupU3TfCMQ_ptp5oGOE",
+      "tCKDnoaBP1ElV0QtDj87uTu6qCal86hapRarX2wZCIrPvpVIpgPem_fz34p8xs9uAeXKjPs3zxFoNlrXu-ASHQA",
+      "8MXtg3lDoRIE2-G6UiBtIGxjjGI4pgZX46-wdX8YfNL8rCtXHeAjTyBnEV_C7I-b7AM3LOboxVyViPX8SVpVQg",
+      "3pQiYLiQkoLUF8vfOgzb9_wF7wkYhpfJu0fbYprK0XNqLE8m5uSBge6sKPBzBgsUEhbwcggwffCnKmp4wGUO",
+    ],
+  },
 };
 
 // En büyük kullanım 128 CSS pikseli; 2x ekranlar için 256 yeterli.
