@@ -33,14 +33,14 @@ const SOURCES = {
   scancode: {
     icon: "3-oauGAl1e3VsDr9-OtQHQVCN8r2TYoNqkWETtPY5AT2glcS0Rq7W0T6YjMoefAHeoRvQqJWTuaI1BLpEwJ5",
     screenshots: [
-      "ZOxgIc8QB1b8fYQlLsgJ5Tam3mQ58A4Ot4ZhiP-zb9fQmXQS7v8ph1PbkWhI1Z09UN6LRpwWFPCb7Wrug1ItUQ",
-      "NHpqmn06prpnvNXzmkQyIIcQiu_BAkDDlUkUPsYqY6eLd6wHMWX-T1uu1sWNTgp5qPsvEtFfiSGSUis_QEtD",
       "IwPBgabEhNqaMgENqAijXcf30KSPyKbc4WrzvZy0GOnzeQPYHygV89A6HrkaGivBo_1kTAyC4Ct55I4vSlVNYQ",
+      "NHpqmn06prpnvNXzmkQyIIcQiu_BAkDDlUkUPsYqY6eLd6wHMWX-T1uu1sWNTgp5qPsvEtFfiSGSUis_QEtD",
+      "ADGWMTCTOpaXhECaP0qUAVTZLJdSDaEhtpZlcnV08bw9Xhe4oCxoT4sMMq-eVnh1cNKWzTMuXusTfU7BhGFyVRc",
+      "ZOxgIc8QB1b8fYQlLsgJ5Tam3mQ58A4Ot4ZhiP-zb9fQmXQS7v8ph1PbkWhI1Z09UN6LRpwWFPCb7Wrug1ItUQ",
+      "FauhHKUgm63QmHShyzOmY7qE3PGJZe1XLCwviSTncRKmaWTx8wAb0zuoZyCFg9MvpxF7K-HQHfECE4cvF1yd",
       "ayeNXz_8rvli3Fih3dCWUBdshyAG3VMz9J1mqHY6o4BXKSMEd9YqNcSxfT8p0QfdRkNFK6TRKq8L0eA_sqt_",
       "bgfgd0peRxOAy2mUO9j9xNllo5OAmSkZJ_Nb0fphpcS_7tTa2G344Lrs0hOvfpa95uUl8iqD7lcI2zSkjWqg",
       "aDNMLFWVZMt4u0kDfBepy9rsxxmdJ6Y1lFlleK_ZsvKxwpr9I6vi7bu63mxQEr6YnzDewsfkMhHRmZudNn_cXA",
-      "ADGWMTCTOpaXhECaP0qUAVTZLJdSDaEhtpZlcnV08bw9Xhe4oCxoT4sMMq-eVnh1cNKWzTMuXusTfU7BhGFyVRc",
-      "FauhHKUgm63QmHShyzOmY7qE3PGJZe1XLCwviSTncRKmaWTx8wAb0zuoZyCFg9MvpxF7K-HQHfECE4cvF1yd",
     ],
   },
   // Mağazadaki Türkçe telefon ekran görüntüleri.

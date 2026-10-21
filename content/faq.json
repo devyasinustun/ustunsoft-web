@@ -114,8 +114,8 @@
     "items": [
       {
         "q": {
-          "tr": "ScanCode internet olmadan çalışır mı?",
-          "en": "Does ScanCode work without internet?"
+          "tr": "Kod Tara internet olmadan çalışır mı?",
+          "en": "Does Scan Code work without internet?"
         },
         "a": {
           "tr": "Evet. Kodlar telefonda okunur; tarama için bağlantı gerekmez. Okunan bir bağlantıyı açmak ya da ürün barkodunu internette aramak için bağlantı gerekir.",
@@ -128,8 +128,8 @@
           "en": "Can I scan a code from a screenshot?"
         },
         "a": {
-          "tr": "Evet. Görseli galeriden seçin ya da başka bir uygulamadan “Paylaş” ile ScanCode'a gönderin. Depolama izni istenmez; yalnızca seçtiğiniz görsel okunur.",
-          "en": "Yes. Pick the image from your gallery, or share it to ScanCode from another app. No storage permission is requested; only the image you pick is read."
+          "tr": "Evet. Görseli galeriden seçin ya da başka bir uygulamadan “Paylaş” ile Kod Tara'ya gönderin. Depolama izni istenmez; yalnızca seçtiğiniz görsel okunur.",
+          "en": "Yes. Pick the image from your gallery, or share it to Scan Code from another app. No storage permission is requested; only the image you pick is read."
         }
       },
       {
@@ -183,8 +183,8 @@
           "en": "Where is my progress kept?"
         },
         "a": {
-          "tr": "Yalnızca cihazınızda. Devam eden run, açtığınız yancılar ve torbalar sunucumuza gönderilmez; hesap da gerekmez.",
-          "en": "Only on your device. The run in progress and the kibitzers and bags you've unlocked are never sent to our servers, and no account is needed."
+          "tr": "Yalnızca cihazınızda. Devam eden oyun, rekorlarınız, açtığınız yancılar ve torbalar sunucumuza gönderilmez; hesap da gerekmez.",
+          "en": "Only on your device. The run in progress, your records and the kibitzers and bags you've unlocked are never sent to our servers, and no account is needed."
         }
       },
       {
@@ -193,8 +193,8 @@
           "en": "What ads does the game show?"
         },
         "a": {
-          "tr": "Ekranın üstünde küçük bir banner var. Ödüllü reklam yalnızca siz isterseniz, yeniden dağıtmak için izlenir. Tam ekran reklam run'ı bölmez; yalnızca run bittikten sonra çıkabilir.",
-          "en": "A small banner sits at the top of the screen. Rewarded ads play only when you ask, to redeal. Full-screen ads never interrupt a run; one may appear only after a run ends."
+          "tr": "Ekranın üstünde küçük bir banner var. Ödüllü reklam yalnızca siz isterseniz izlenir: ıstakayı yeniden dağıtmak, haklarınız bitince bir değiştirme ya da bir el daha kazanmak veya Çarşı'da haftanın setini denemek için. Tam ekran reklam oyunu bölmez; yalnızca oyun bittikten sonra çıkabilir.",
+          "en": "A small banner sits at the top of the screen. Rewarded ads play only when you ask: to redeal your rack, for one more discard or one more hand when you run out, or to try the week's set in the Bazaar. Full-screen ads never interrupt a run; one may appear only after a run ends."
         }
       },
       {
@@ -203,8 +203,8 @@
           "en": "Do purchases make the game easier?"
         },
         "a": {
-          "tr": "Hayır. Reklamları Kaldır reklamları kaldırır, Kahvehane Paketi kilitli yancı ve torbaları hemen açar, setler yalnızca masanın görünümünü değiştirir. Rastgele içerikli ücretli paket yoktur.",
-          "en": "No. Remove Ads removes the ads, the Coffeehouse Pack unlocks every locked kibitzer and bag at once, and the sets only change how the table looks. There are no paid packs with random contents."
+          "tr": "Hayır. Reklamları Kaldır reklamları kaldırır; ödüllü haklar da reklamsız gelir. Kahvehane Paketi kilitli yancı ve torbaları hemen açar, setler yalnızca masanın görünümünü değiştirir. Rastgele içerikli ücretli paket yoktur.",
+          "en": "No. Remove Ads removes the ads, and rewarded extras then come without one. The Coffeehouse Pack unlocks every locked kibitzer and bag at once, and the sets only change how the table looks. There are no paid packs with random contents."
         }
       },
       {

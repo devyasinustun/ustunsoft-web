@@ -38,7 +38,8 @@
     },
     "stats": {
       "downloads": 10000,
-      "rating": 4.5
+      "rating": 4.5,
+      "ratingCount": 28
     },
     "ageRating": "3+",
     "updatedAt": "2026-03",
@@ -95,7 +96,7 @@
     "accentColor": "#8a6a00",
     "playUrl": "https://play.google.com/store/apps/details?id=com.ustunsoft.scoremaster",
     "shortDescription": {
-      "tr": "Kalem kâğıda gerek yok! Oyun skorlarını kolayca tut ve paylaş.",
+      "tr": "Kağıt kalem aramaya son! Oyun skorlarınızı kolayca takip edin ve paylaşın.",
       "en": "Ditch the pen and paper! Easily track and share your game scores."
     },
     "description": {
@@ -123,7 +124,7 @@
       ]
     },
     "stats": {
-      "downloads": 500
+      "downloads": 1000
     },
     "ageRating": "3+",
     "updatedAt": "2026-08",
@@ -165,8 +166,8 @@
     "slug": "scancode",
     "packageName": "com.ustunsoft.scancode",
     "name": {
-      "tr": "ScanCode: QR & Barkod Okuyucu",
-      "en": "ScanCode: QR & Barcode Scanner"
+      "tr": "Kod Tara: QR ve Barkod Okuyucu",
+      "en": "Scan Code: QR & Barcode Reader"
     },
     "category": "app",
     "status": "published",
@@ -203,6 +204,9 @@
         "No account needed",
         "One-time purchase for no ads and bulk code creation"
       ]
+    },
+    "stats": {
+      "downloads": 100
     },
     "ageRating": "3+",
     "updatedAt": "2026-10",
@@ -268,8 +272,8 @@
       "en": "Play hands with okey tiles, stack combos with kibitzers, clear all eight tables!"
     },
     "description": {
-      "tr": "Okeyro, okey taşlarıyla oynanan tek kişilik bir roguelike. Her elde ıstakadan birkaç taş seçip per açarsın; puanın, per'in değeri ile çarpanın çarpımıdır. Kahvehanenin müdavimleri olan yancılar ise her eli bambaşka bir hesaba çevirir.\n\nNASIL OYNANIR\n• Istakadan 1 ile 5 arası taş seç, per aç: Çift, Üçlü, Seri, Renkli Seri, Dörtlü ve daha fazlası.\n• Her masada üç tur var: Isınma, Asıl ve Patron. Hedef puana ulaş, bir sonraki tura geç.\n• Sekiz masayı bitir, run'ı kazan. El hakların biterse run biter, baştan başlarsın.\n\nYANCILAR VE TEZGÂH\n• Tur aralarında tezgâha uğra, kazandığın simitlerle yancı, defter ve tılsım al.\n• Çaycı Hüsnü çarpanını artırır, Kasap Kâzım kırmızı taşlardan puan çıkarır, Şair Şevket az taşla açılan elleri ödüllendirir. 30 yancı, her biri başka bir strateji.\n• Defterlerle per'lerinin seviyesini yükselt, tılsımlarla taşlarını değiştir: renk boya, sayı artır, taşlara cam, kabartma, yaldız ya da altın eki ver.\n• Yancıların sırası önemli; doğru dizilişle küçük bir el bile dev bir puana dönüşür.\n\nPATRONLAR\nHer masanın sonunda bir patron seni bekler: kimi bir rengi etkisizleştirir, kimi taşlarını kapalı dağıtır, kimi atma hakkını elinden alır. Son masada Kahvehane Sahibi Rıza Baba var.\n\nÇARŞI\n• Masanı giydir: Mermer, Sedef, Çini ve Abanoz taşlar; kadife ve çini desenli çuhalar; sedef kakma ıstakalar; lale yağmuru, çini kırıkları, ateşböcekleri.\n• Bazı parçaları oynayarak kazanırsın. Setleri almadan önce önizler, bir run boyunca deneyebilirsin.\n• Görünüm yalnızca görünümdür: puana ve olasılıklara hiçbir etkisi yoktur.\n\nHER RUN FARKLI\n• Beş farklı torba ile başla; her torba oyunu başka bir yöne çeker.\n• Oynadıkça yeni yancıların ve torbaların kilidi açılır.\n• Her run yeni bir dağıtım, yeni bir tezgâh, yeni bir patron sırası.\n\nÖZELLİKLER\n• Tamamen tek kişilik; internet olmadan da oynanır.\n• Türkçe ve İngilizce.\n• Run kaldığı yerden devam eder.\n• Puanın adım adım sayılır: her taş, her yancı, her çarpan ekranda görünür.\n• Rehber ve per kılavuzu ile ilk elden kuralları öğrenirsin.\n\nADİL OYUN\nPara, run içinde güç satın almaz. Ödüllü reklam yalnızca sen istersen izlenir (turda bir kez yeniden dağıtmak için); tam ekran reklam run'ı asla bölmez, yalnızca run bittikten sonra çıkabilir. Ekranın üstünde küçük bir banner durur, oyunun butonlarından uzak tutulur. Reklamları kaldırmak, bütün kilitleri hemen açmak ya da masaya oynanışı hiç değiştirmeyen yeni bir görünüm giydirmek için isteğe bağlı satın alımlar vardır; rastgele içerikli ücretli paket yoktur.\n\nBir el daha mı? Hadi, masaya otur.",
-      "en": "Okeyro is a single-player roguelike played with okey tiles. Pick a few tiles from your rack and play a hand: your score is its points times its multiplier. The kibitzers, regulars of the old coffeehouse, turn every hand into a whole new calculation.\n\nHOW TO PLAY\n• Pick 1 to 5 tiles from your rack and play a hand: Pair, Trio, Run, Color Run, Quad and more.\n• Each table has three rounds: Warm-up, Main and Boss. Reach the target score to move on.\n• Clear all eight tables to win the run. Run out of hands and the run is over: start again.\n\nKIBITZERS AND THE SHOP\n• Between rounds, visit the shop and spend the simit you earned on kibitzers, ledgers and charms.\n• Tea Man Hüsnü raises your multiplier, Butcher Kâzım squeezes points out of red tiles, Poet Şevket rewards small hands. 30 kibitzers, each a different strategy.\n• Level up your hands with ledgers and reshape your tiles with charms: paint a color, raise a number, give tiles glass, embossed, gilded or gold finishes.\n• Order matters: line your kibitzers up right and a small hand becomes a huge score.\n\nBOSSES\nAt the end of every table a boss is waiting: one debuffs a color, one deals your tiles face down, one takes your discards away. At the final table sits Rıza Baba, the Owner.\n\nTHE BAZAAR\n• Dress up your table: marble, mother-of-pearl, çini and ebony tiles; velvet and patterned felts; pearl-inlaid racks; tulip showers, tile shards and fireflies.\n• Earn some pieces by playing. Preview every set before you buy it, or try one for a run.\n• Looks are only looks: they never change your score or the odds.\n\nEVERY RUN IS DIFFERENT\n• Start with one of five bags; each pulls the game in another direction.\n• Unlock new kibitzers and bags as you play.\n• Every run brings a new deal, a new shop, a new line of bosses.\n\nFEATURES\n• Fully single-player; plays offline.\n• English and Turkish.\n• Pick up your run where you left it.\n• Your score is counted step by step: every tile, every kibitzer, every multiplier on screen.\n• A tutorial and a hand guide teach you the rules from your first hand.\n\nFAIR PLAY\nMoney never buys power inside a run. Rewarded ads play only when you ask (to redeal once a round), and no full-screen ad ever interrupts a run. A small banner sits at the top of the screen, well away from the game's buttons. Optional purchases remove the ads, unlock everything at once, or dress the table in a new look that changes nothing in play; there are no paid packs with random contents.\n\nOne more hand? Take a seat at the table."
+      "tr": "Okeyro, okey taşlarıyla oynanan tek kişilik bir roguelike. Her elde ıstakadan birkaç taş seçip per açarsın; puanın, per'in değeri ile çarpanın çarpımıdır. Kahvehanenin müdavimleri olan yancılar ise her eli bambaşka bir hesaba çevirir.\n\nNASIL OYNANIR\n• Istakadan en fazla 5 taş seç, per aç: Çift, Üçlü, Seri, Renkli Seri, Dörtlü ve daha fazlası.\n• Her masada üç tur var: Isınma, Asıl ve Patron. Hedef puana ulaş, bir sonraki tura geç.\n• Sekiz masayı bitir, oyunu kazan. El hakların biterse oyun biter; istersen oyun başına bir kez reklam izleyip bir el daha oynarsın.\n\nYANCILAR VE TEZGÂH\n• Tur aralarında tezgâha uğra, kazandığın simitlerle yancı, defter ve tılsım al.\n• Çaycı Hüsnü çarpanını artırır, Kasap Kâzım kırmızı taşlardan puan çıkarır, Şair Şevket az taşla açılan elleri ödüllendirir. 30 yancı, her biri başka bir strateji.\n• Defterlerle per'lerinin seviyesini yükselt, tılsımlarla taşlarını değiştir: renk boya, sayı artır, taşlara cam, kabartma, yaldız ya da altın eki ver.\n• Yancıların sırası önemli; doğru dizilişle küçük bir el bile dev bir puana dönüşür.\n\nPATRONLAR\nHer masanın sonunda bir patron seni bekler: kimi bir rengi etkisizleştirir, kimi taşlarını kapalı dağıtır, kimi değiştirme hakkını elinden alır. Son masada Kahvehane Sahibi Rıza Baba var.\n\nÇARŞI\n• Masanı giydir: Mermer, Sedef, Çini ve Abanoz taşlar; kadife ve çini desenli çuhalar; sedef kakma ıstakalar; lale yağmuru, çini kırıkları, ateşböcekleri.\n• Bazı parçaları oynayarak kazanırsın. Setleri almadan önce önizlersin; her hafta biri bir oyun boyunca denenebilir.\n• Görünüm yalnızca görünümdür: puana ve olasılıklara hiçbir etkisi yoktur.\n\nHER OYUN FARKLI\n• Beş farklı torba ile başla; her torba oyunu başka bir yöne çeker.\n• Oynadıkça yeni yancıların ve torbaların kilidi açılır.\n• Her oyun yeni bir dağıtım, yeni bir tezgâh, yeni bir patron sırası.\n\nÖZELLİKLER\n• Tamamen tek kişilik; internet olmadan da oynanır.\n• Türkçe ve İngilizce.\n• Oyun kaldığı yerden devam eder.\n• Rekorların ve istatistiklerin tutulur: en uzak masa, en iyi açış, en yüksek oyun toplamı.\n• Puanın adım adım sayılır: her taş, her yancı, her çarpan ekranda görünür.\n• Rehber ve per kılavuzu ile ilk elden kuralları öğrenirsin.\n\nADİL OYUN\nPara, oyun içinde güç satın almaz. Ödüllü reklam yalnızca sen istersen izlenir: ıstakayı yeniden dağıtmak, değiştirme hakkın bitince bir değiştirme daha, el hakların bitince bir el daha ya da Çarşı'da haftanın setini denemek için. Tam ekran reklam oyunu asla bölmez, yalnızca oyun bittikten sonra çıkabilir. Ekranın üstünde küçük bir banner durur, oyunun butonlarından uzak tutulur. Reklamları kaldırmak (ödüllü haklar da reklamsız gelir), bütün kilitleri hemen açmak ya da masaya oynanışı hiç değiştirmeyen yeni bir görünüm giydirmek için isteğe bağlı satın alımlar vardır; rastgele içerikli ücretli paket yoktur.\n\nBir el daha mı? Hadi, masaya otur.",
+      "en": "Okeyro is a single-player roguelike played with okey tiles. Pick a few tiles from your rack and play a hand: your score is its points times its multiplier. The kibitzers, regulars of the old coffeehouse, turn every hand into a whole new calculation.\n\nHOW TO PLAY\n• Pick up to 5 tiles from your rack and play a hand: Pair, Trio, Run, Color Run, Quad and more.\n• Each table has three rounds: Warm-up, Main and Boss. Reach the target score to move on.\n• Clear all eight tables to win the run. Run out of hands and the run is over, unless you watch an ad for one more hand, once per run.\n\nKIBITZERS AND THE SHOP\n• Between rounds, visit the shop and spend the simit you earned on kibitzers, ledgers and charms.\n• Tea Man Hüsnü raises your multiplier, Butcher Kâzım squeezes points out of red tiles, Poet Şevket rewards small hands. 30 kibitzers, each a different strategy.\n• Level up your hands with ledgers and reshape your tiles with charms: paint a color, raise a number, give tiles glass, embossed, gilded or gold finishes.\n• Order matters: line your kibitzers up right and a small hand becomes a huge score.\n\nBOSSES\nAt the end of every table a boss is waiting: one debuffs a color, one deals your tiles face down, one takes your discards away. At the final table sits Rıza Baba, the Owner.\n\nTHE BAZAAR\n• Dress up your table: marble, mother-of-pearl, çini and ebony tiles; velvet and patterned felts; pearl-inlaid racks; tulip showers, tile shards and fireflies.\n• Earn some pieces by playing. Preview every set before you buy it; each week, one can be tried for a run.\n• Looks are only looks: they never change your score or the odds.\n\nEVERY RUN IS DIFFERENT\n• Start with one of five bags; each pulls the game in another direction.\n• Unlock new kibitzers and bags as you play.\n• Every run brings a new deal, a new shop, a new line of bosses.\n\nFEATURES\n• Fully single-player; plays offline.\n• English and Turkish.\n• Pick up your run where you left it.\n• Your records and stats are kept: furthest table, best hand, best run total.\n• Your score is counted step by step: every tile, every kibitzer, every multiplier on screen.\n• A tutorial and a hand guide teach you the rules from your first hand.\n\nFAIR PLAY\nMoney never buys power inside a run. Rewarded ads play only when you ask: to redeal your rack, for one more discard or one more hand when you run out, or to try the week's set in the Bazaar. No full-screen ad ever interrupts a run. A small banner sits at the top of the screen, well away from the game's buttons. Optional purchases remove the ads (rewarded extras then come without one), unlock everything at once, or dress the table in a new look that changes nothing in play; there are no paid packs with random contents.\n\nOne more hand? Take a seat at the table."
     },
     "features": {
       "tr": [
@@ -278,8 +282,9 @@
         "30 yancı ve 5 torba; yenileri oynadıkça açılır",
         "Defter ve tılsımlarla per ve taş geliştirme",
         "Para güç satın almaz; setler yalnızca görünümü değiştirir",
-        "İnternet olmadan oynanır, run kaldığı yerden devam eder",
+        "İnternet olmadan oynanır, oyun kaldığı yerden devam eder",
         "Hesap gerekmez; ilerleme cihazınızda kalır",
+        "Rekorlar ve istatistikler tutulur",
         "Türkçe ve İngilizce"
       ],
       "en": [
@@ -290,6 +295,7 @@
         "Money never buys power; sets only change the look",
         "Plays offline; pick up your run where you left it",
         "No account needed; progress stays on your device",
+        "Records and stats are kept",
         "Turkish and English"
       ]
     },
