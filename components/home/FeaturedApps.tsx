@@ -21,7 +21,9 @@ const LAYOUT = [
 async function FeaturedCard({ app, shots }: { app: App; shots: number }) {
   const t = await getTranslations();
   const locale = (await getLocale()) as Locale;
-  const portrait = app.screenshots.filter((shot) => shot.height > shot.width).slice(0, shots);
+  const portrait = app.screenshots[locale]
+    .filter((shot) => shot.height > shot.width)
+    .slice(0, shots);
 
   return (
     <article

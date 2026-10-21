@@ -105,14 +105,14 @@ export default async function AppDetailPage({ params }: PageProps<"/[locale]/app
         </Container>
       </header>
 
-      {app.screenshots.length > 0 && (
+      {app.screenshots[locale].length > 0 && (
         <section aria-labelledby="screenshots-title" className="border-b border-line py-12">
           <Container>
             <h2 id="screenshots-title" className="text-3xl sm:text-4xl">
               {t("appDetail.screenshots")}
             </h2>
             <div className="mt-6">
-              <ScreenshotGallery name={name} screenshots={app.screenshots} />
+              <ScreenshotGallery name={name} screenshots={app.screenshots[locale]} />
             </div>
           </Container>
         </section>

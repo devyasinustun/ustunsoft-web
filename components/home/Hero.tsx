@@ -10,7 +10,9 @@ import { getFeaturedApps } from "@/lib/apps";
 export async function Hero() {
   const t = await getTranslations("home.hero");
   const locale = (await getLocale()) as Locale;
-  const [first, second] = (await getFeaturedApps()).filter((app) => app.screenshots.length > 0);
+  const [first, second] = (await getFeaturedApps()).filter(
+    (app) => app.screenshots[locale].length > 0,
+  );
 
   return (
     <section className="overflow-hidden border-b border-line">
@@ -36,7 +38,7 @@ export async function Hero() {
           <div className="relative mx-auto flex w-full max-w-md items-start justify-center gap-4 lg:col-span-5 lg:max-w-none">
             <div className="relative w-[46%] -rotate-3">
               <PhoneFrame
-                {...first.screenshots[0]}
+                {...first.screenshots[locale][0]}
                 alt={t("screenshotAlt", { name: first.name[locale] })}
                 sizes="(min-width: 1024px) 15rem, 40vw"
                 preload
@@ -49,7 +51,7 @@ export async function Hero() {
             </div>
             <div className="relative mt-12 w-[46%] rotate-3">
               <PhoneFrame
-                {...second.screenshots[0]}
+                {...second.screenshots[locale][0]}
                 alt={t("screenshotAlt", { name: second.name[locale] })}
                 sizes="(min-width: 1024px) 15rem, 40vw"
                 preload
