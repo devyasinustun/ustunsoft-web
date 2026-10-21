@@ -51,14 +51,14 @@ npm run verify
 
 ## Yeni uygulama ekleme
 
-1. `content/apps.json` dosyasına yeni bir kayıt ekleyin. Alanlar `types/app.ts` içindeki şemayla doğrulanır; eksik ya da hatalı alan build'i durdurur. Metin alanları (`name`, `shortDescription`, `description`, `features`) hem `tr` hem `en` ister.
-2. Görseller için `scripts/fetch-images.mjs` içindeki `SOURCES` listesine uygulamanın slug'ını, Google Play ikon ve ekran görüntüsü ID'lerini ekleyin, sonra çalıştırın:
+1. `content/apps.json` dosyasına yeni bir kayıt ekleyin. Alanlar `types/app.ts` içindeki şemayla doğrulanır; eksik ya da hatalı alan build'i durdurur. Metin alanları (`name`, `shortDescription`, `description`, `features`) ve `screenshots` hem `tr` hem `en` ister; ekran görüntüsü yoksa ikisi de boş liste olur.
+2. Görseller için `scripts/fetch-images.mjs` içindeki `SOURCES` listesine uygulamanın slug'ını, Google Play ikon ve telefon ekran görüntüsü ID'lerini ekleyin, sonra çalıştırın. Mağazada her dilin kendi ekran görüntüleri varsa ID'leri `{ tr: [...], en: [...] }` olarak, tek set varsa dizi olarak verin.
 
    ```powershell
    node scripts/fetch-images.mjs
    ```
 
-   Betik görselleri `public/apps/<slug>/` altına WebP olarak yazar ve her ekran görüntüsünün boyutunu ekrana basar. Bu `src`, `width`, `height` değerlerini `apps.json`'daki `screenshots` listesine, ikon yolunu `icon` alanına yazın.
+   Betik görselleri `public/apps/<slug>/` altına WebP olarak yazar; dile özgü ekran görüntüleri `tr/` ve `en/` klasörlerine gider. Çıktıdaki `screenshots` nesnesini (`tr` ve `en` listeleri) olduğu gibi `apps.json`'a, ikon yolunu `icon` alanına yazın.
 
 3. `accentColor` için ikonla uyumlu, beyaz metinle en az 4.5:1 kontrast veren bir renk seçin. Betiğin önerdiği renk ikonun arka planını yakalayabilir; gözle kontrol edin.
 4. Destek sayfasında sık sorulan sorular görünsün istiyorsanız `content/faq.json`'a aynı slug ile bir grup ekleyin.

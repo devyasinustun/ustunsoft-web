@@ -11,6 +11,8 @@ const imageSchema = z.object({
   width: z.number().int().positive(),
   height: z.number().int().positive(),
 });
+// Mağazada tek set varsa iki dil aynı görselleri listeler.
+const localizedImages = z.object({ tr: z.array(imageSchema), en: z.array(imageSchema) });
 
 export const appSchema = z
   .object({
@@ -42,7 +44,7 @@ export const appSchema = z
       .regex(/^\d{4}-(0[1-9]|1[0-2])$/)
       .optional(),
     icon: z.string().startsWith("/apps/").optional(),
-    screenshots: z.array(imageSchema),
+    screenshots: localizedImages,
   })
   .refine((app) => app.status !== "published" || app.playUrl, {
     message: "published uygulamada playUrl zorunlu",
@@ -52,5 +54,6 @@ export const appSchema = z
 export const appsSchema = z.array(appSchema);
 
 export type App = z.infer<typeof appSchema>;
+export type AppImage = z.infer<typeof imageSchema>;
 export type AppCategory = App["category"];
 export type AppStatus = App["status"];

@@ -44,43 +44,82 @@
     "ageRating": "3+",
     "updatedAt": "2026-03",
     "icon": "/apps/tabu-mabu/icon.webp",
-    "screenshots": [
-      {
-        "src": "/apps/tabu-mabu/screenshot-1.webp",
-        "width": 486,
-        "height": 1080
-      },
-      {
-        "src": "/apps/tabu-mabu/screenshot-2.webp",
-        "width": 486,
-        "height": 1080
-      },
-      {
-        "src": "/apps/tabu-mabu/screenshot-3.webp",
-        "width": 486,
-        "height": 1080
-      },
-      {
-        "src": "/apps/tabu-mabu/screenshot-4.webp",
-        "width": 486,
-        "height": 1080
-      },
-      {
-        "src": "/apps/tabu-mabu/screenshot-5.webp",
-        "width": 486,
-        "height": 1080
-      },
-      {
-        "src": "/apps/tabu-mabu/screenshot-6.webp",
-        "width": 486,
-        "height": 1080
-      },
-      {
-        "src": "/apps/tabu-mabu/screenshot-7.webp",
-        "width": 1024,
-        "height": 500
-      }
-    ]
+    "screenshots": {
+      "tr": [
+        {
+          "src": "/apps/tabu-mabu/screenshot-1.webp",
+          "width": 486,
+          "height": 1080
+        },
+        {
+          "src": "/apps/tabu-mabu/screenshot-2.webp",
+          "width": 486,
+          "height": 1080
+        },
+        {
+          "src": "/apps/tabu-mabu/screenshot-3.webp",
+          "width": 486,
+          "height": 1080
+        },
+        {
+          "src": "/apps/tabu-mabu/screenshot-4.webp",
+          "width": 486,
+          "height": 1080
+        },
+        {
+          "src": "/apps/tabu-mabu/screenshot-5.webp",
+          "width": 486,
+          "height": 1080
+        },
+        {
+          "src": "/apps/tabu-mabu/screenshot-6.webp",
+          "width": 486,
+          "height": 1080
+        },
+        {
+          "src": "/apps/tabu-mabu/screenshot-7.webp",
+          "width": 1024,
+          "height": 500
+        }
+      ],
+      "en": [
+        {
+          "src": "/apps/tabu-mabu/screenshot-1.webp",
+          "width": 486,
+          "height": 1080
+        },
+        {
+          "src": "/apps/tabu-mabu/screenshot-2.webp",
+          "width": 486,
+          "height": 1080
+        },
+        {
+          "src": "/apps/tabu-mabu/screenshot-3.webp",
+          "width": 486,
+          "height": 1080
+        },
+        {
+          "src": "/apps/tabu-mabu/screenshot-4.webp",
+          "width": 486,
+          "height": 1080
+        },
+        {
+          "src": "/apps/tabu-mabu/screenshot-5.webp",
+          "width": 486,
+          "height": 1080
+        },
+        {
+          "src": "/apps/tabu-mabu/screenshot-6.webp",
+          "width": 486,
+          "height": 1080
+        },
+        {
+          "src": "/apps/tabu-mabu/screenshot-7.webp",
+          "width": 1024,
+          "height": 500
+        }
+      ]
+    }
   },
   {
     "slug": "score-master",
@@ -129,38 +168,72 @@
     "ageRating": "3+",
     "updatedAt": "2026-08",
     "icon": "/apps/score-master/icon.webp",
-    "screenshots": [
-      {
-        "src": "/apps/score-master/screenshot-1.webp",
-        "width": 608,
-        "height": 1080
-      },
-      {
-        "src": "/apps/score-master/screenshot-2.webp",
-        "width": 608,
-        "height": 1080
-      },
-      {
-        "src": "/apps/score-master/screenshot-3.webp",
-        "width": 608,
-        "height": 1080
-      },
-      {
-        "src": "/apps/score-master/screenshot-4.webp",
-        "width": 608,
-        "height": 1080
-      },
-      {
-        "src": "/apps/score-master/screenshot-5.webp",
-        "width": 608,
-        "height": 1080
-      },
-      {
-        "src": "/apps/score-master/screenshot-6.webp",
-        "width": 608,
-        "height": 1080
-      }
-    ]
+    "screenshots": {
+      "tr": [
+        {
+          "src": "/apps/score-master/tr/screenshot-1.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/score-master/tr/screenshot-2.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/score-master/tr/screenshot-3.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/score-master/tr/screenshot-4.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/score-master/tr/screenshot-5.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/score-master/tr/screenshot-6.webp",
+          "width": 608,
+          "height": 1080
+        }
+      ],
+      "en": [
+        {
+          "src": "/apps/score-master/en/screenshot-1.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/score-master/en/screenshot-2.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/score-master/en/screenshot-3.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/score-master/en/screenshot-4.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/score-master/en/screenshot-5.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/score-master/en/screenshot-6.webp",
+          "width": 608,
+          "height": 1080
+        }
+      ]
+    }
   },
   {
     "slug": "scancode",
@@ -211,48 +284,92 @@
     "ageRating": "3+",
     "updatedAt": "2026-10",
     "icon": "/apps/scancode/icon.webp",
-    "screenshots": [
-      {
-        "src": "/apps/scancode/screenshot-1.webp",
-        "width": 608,
-        "height": 1080
-      },
-      {
-        "src": "/apps/scancode/screenshot-2.webp",
-        "width": 608,
-        "height": 1080
-      },
-      {
-        "src": "/apps/scancode/screenshot-3.webp",
-        "width": 608,
-        "height": 1080
-      },
-      {
-        "src": "/apps/scancode/screenshot-4.webp",
-        "width": 608,
-        "height": 1080
-      },
-      {
-        "src": "/apps/scancode/screenshot-5.webp",
-        "width": 608,
-        "height": 1080
-      },
-      {
-        "src": "/apps/scancode/screenshot-6.webp",
-        "width": 608,
-        "height": 1080
-      },
-      {
-        "src": "/apps/scancode/screenshot-7.webp",
-        "width": 608,
-        "height": 1080
-      },
-      {
-        "src": "/apps/scancode/screenshot-8.webp",
-        "width": 608,
-        "height": 1080
-      }
-    ]
+    "screenshots": {
+      "tr": [
+        {
+          "src": "/apps/scancode/tr/screenshot-1.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/scancode/tr/screenshot-2.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/scancode/tr/screenshot-3.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/scancode/tr/screenshot-4.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/scancode/tr/screenshot-5.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/scancode/tr/screenshot-6.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/scancode/tr/screenshot-7.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/scancode/tr/screenshot-8.webp",
+          "width": 608,
+          "height": 1080
+        }
+      ],
+      "en": [
+        {
+          "src": "/apps/scancode/en/screenshot-1.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/scancode/en/screenshot-2.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/scancode/en/screenshot-3.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/scancode/en/screenshot-4.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/scancode/en/screenshot-5.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/scancode/en/screenshot-6.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/scancode/en/screenshot-7.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/scancode/en/screenshot-8.webp",
+          "width": 608,
+          "height": 1080
+        }
+      ]
+    }
   },
   {
     "slug": "okeyro",
@@ -302,47 +419,91 @@
     "ageRating": "3+",
     "updatedAt": "2026-10",
     "icon": "/apps/okeyro/icon.webp",
-    "screenshots": [
-      {
-        "src": "/apps/okeyro/screenshot-1.webp",
-        "width": 608,
-        "height": 1080
-      },
-      {
-        "src": "/apps/okeyro/screenshot-2.webp",
-        "width": 608,
-        "height": 1080
-      },
-      {
-        "src": "/apps/okeyro/screenshot-3.webp",
-        "width": 608,
-        "height": 1080
-      },
-      {
-        "src": "/apps/okeyro/screenshot-4.webp",
-        "width": 608,
-        "height": 1080
-      },
-      {
-        "src": "/apps/okeyro/screenshot-5.webp",
-        "width": 608,
-        "height": 1080
-      },
-      {
-        "src": "/apps/okeyro/screenshot-6.webp",
-        "width": 608,
-        "height": 1080
-      },
-      {
-        "src": "/apps/okeyro/screenshot-7.webp",
-        "width": 608,
-        "height": 1080
-      },
-      {
-        "src": "/apps/okeyro/screenshot-8.webp",
-        "width": 608,
-        "height": 1080
-      }
-    ]
+    "screenshots": {
+      "tr": [
+        {
+          "src": "/apps/okeyro/tr/screenshot-1.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/okeyro/tr/screenshot-2.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/okeyro/tr/screenshot-3.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/okeyro/tr/screenshot-4.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/okeyro/tr/screenshot-5.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/okeyro/tr/screenshot-6.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/okeyro/tr/screenshot-7.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/okeyro/tr/screenshot-8.webp",
+          "width": 608,
+          "height": 1080
+        }
+      ],
+      "en": [
+        {
+          "src": "/apps/okeyro/en/screenshot-1.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/okeyro/en/screenshot-2.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/okeyro/en/screenshot-3.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/okeyro/en/screenshot-4.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/okeyro/en/screenshot-5.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/okeyro/en/screenshot-6.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/okeyro/en/screenshot-7.webp",
+          "width": 608,
+          "height": 1080
+        },
+        {
+          "src": "/apps/okeyro/en/screenshot-8.webp",
+          "width": 608,
+          "height": 1080
+        }
+      ]
+    }
   }
 ]

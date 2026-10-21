@@ -4,11 +4,11 @@ import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useRef, useState } from "react";
-import type { App } from "@/types/app";
+import type { AppImage } from "@/types/app";
 
 type ScreenshotGalleryProps = {
   name: string;
-  screenshots: App["screenshots"];
+  screenshots: AppImage[];
 };
 
 const controlClass =
