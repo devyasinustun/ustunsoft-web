@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "ustunsoft: mobile apps and games",
-    "description": "Mobile apps and games built in Istanbul. No account needed, and your game and score data stays on your device."
+    "description": "Mobile apps and games built in Istanbul. No account needed, and we never ask for your personal details."
   },
   "common": {
     "skipToContent": "Skip to content",
@@ -47,7 +47,7 @@
     "hero": {
       "eyebrow": "Mobile apps and games from Istanbul",
       "title": "Small apps that know their job.",
-      "body": "A word game for game night, a counter for keeping score. No sign-ups, and your game and score data stays on your device.",
+      "body": "A word game for game night, a counter for keeping score. No sign-ups, and we never ask for your personal details.",
       "primaryCta": "Explore the apps",
       "secondaryCta": "Contact",
       "screenshotAlt": "A screenshot from {name}"
@@ -74,8 +74,8 @@
           "body": "Download, open, use. No sign-up form, no password, no email verification."
         },
         "device": {
-          "title": "Your data stays on your device",
-          "body": "Your game and score data is stored on your phone, and nothing is sent to our servers. Free versions show Google AdMob ads; the Privacy Policy has the details."
+          "title": "Your saves stay on your device",
+          "body": "Your game and score saves are stored on your phone and never sent to us. Peckaroo can back up a copy to your Google Play Games account if you want, and collects anonymous usage and crash info that you can turn off in its settings. Free versions show Google AdMob ads; the Privacy Policy has the details."
         },
         "offline": {
           "title": "Plays offline",
@@ -141,7 +141,7 @@
     "story": {
       "title": "Our story",
       "p1": "We build the apps we want to use ourselves. A word game anyone can open at a get-together, or a counter that keeps score without hunting for pen and paper.",
-      "p2": "Our apps are published on Google Play. All of them work without an account, and the data you create stays on your device.",
+      "p2": "Our apps are published on Google Play. All of them work without an account and never ask for your personal details.",
       "published": "Published",
       "upcoming": "Up next"
     },
@@ -158,7 +158,7 @@
         },
         "privacy": {
           "title": "Respect for privacy",
-          "body": "We don't ask for an account, and we don't send your game and score data to our servers. We also say plainly that the apps show ads."
+          "body": "We don't ask for an account, and your game and score saves are never sent to us. We also say plainly that the apps show ads and that Peckaroo collects anonymous usage info."
         },
         "feedback": {
           "title": "We read feedback",

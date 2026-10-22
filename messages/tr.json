@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "ustunsoft: mobil uygulamalar ve oyunlar",
-    "description": "İstanbul'da geliştirdiğimiz mobil uygulama ve oyunlar. Hesap gerekmez, oyun ve skor verileriniz cihazınızda kalır."
+    "description": "İstanbul'da geliştirdiğimiz mobil uygulama ve oyunlar. Hesap gerekmez, kişisel bilgilerinizi istemeyiz."
   },
   "common": {
     "skipToContent": "İçeriğe geç",
@@ -47,7 +47,7 @@
     "hero": {
       "eyebrow": "İstanbul'dan mobil uygulamalar ve oyunlar",
       "title": "Küçük, işini bilen uygulamalar.",
-      "body": "Oyun gecesi için bir kelime oyunu, skor tutmak için bir sayaç. Hesap açtırmıyoruz; oyun ve skor verileriniz cihazınızda kalıyor.",
+      "body": "Oyun gecesi için bir kelime oyunu, skor tutmak için bir sayaç. Hesap açtırmıyoruz, kişisel bilgilerinizi istemiyoruz.",
       "primaryCta": "Uygulamaları keşfet",
       "secondaryCta": "İletişim",
       "screenshotAlt": "{name} uygulamasından bir ekran görüntüsü"
@@ -74,8 +74,8 @@
           "body": "İndirin, açın, kullanın. Kayıt formu, şifre, e-posta doğrulaması yok."
         },
         "device": {
-          "title": "Verileriniz cihazınızda kalır",
-          "body": "Oyun ve skor verileriniz telefonunuzda saklanır, sunucumuza veri gönderilmez. Ücretsiz sürümlerde Google AdMob reklamları gösterilir; ayrıntısı Gizlilik Politikası'nda."
+          "title": "Kayıtlarınız cihazınızda kalır",
+          "body": "Oyun ve skor kayıtlarınız telefonunuzda saklanır, bize gönderilmez. Peckaroo isterseniz bir kopyasını Google Play Games hesabınıza yedekler ve ayarlardan kapatabileceğiniz anonim kullanım ve çökme bilgisi toplar. Ücretsiz sürümlerde Google AdMob reklamları gösterilir; ayrıntısı Gizlilik Politikası'nda."
         },
         "offline": {
           "title": "İnternetsiz oynanır",
@@ -141,7 +141,7 @@
     "story": {
       "title": "Hikayemiz",
       "p1": "Kendi kullanmak istediğimiz uygulamaları yapıyoruz. Arkadaş toplantısında herkesin telefonunda açılabilecek bir kelime oyunu, kâğıt kalem aramadan skor tutmayı sağlayan bir sayaç gibi.",
-      "p2": "Uygulamalarımız Google Play'de yayınlanıyor. Hepsi hesap açmadan kullanılıyor ve ürettiğiniz veriler cihazınızda kalıyor.",
+      "p2": "Uygulamalarımız Google Play'de yayınlanıyor. Hepsi hesap açmadan kullanılıyor ve kişisel bilgilerinizi istemiyor.",
       "published": "Yayında",
       "upcoming": "Sırada"
     },
@@ -158,7 +158,7 @@
         },
         "privacy": {
           "title": "Gizliliğe saygı",
-          "body": "Hesap istemiyoruz, oyun ve skor verilerinizi sunucumuza göndermiyoruz. Uygulamalarda reklam olduğunu da açıkça söylüyoruz."
+          "body": "Hesap istemiyoruz, oyun ve skor kayıtlarınızı bize göndermiyoruz. Reklam olduğunu da, Peckaroo'nun anonim kullanım bilgisi topladığını da açıkça söylüyoruz."
         },
         "feedback": {
           "title": "Geri bildirimi okuruz",
