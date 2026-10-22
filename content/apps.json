@@ -505,5 +505,135 @@
         }
       ]
     }
+  },
+  {
+    "slug": "peckaroo",
+    "packageName": "com.ustunsoft.peckaroo",
+    "name": {
+      "tr": "Peckaroo: Kuş Macerası",
+      "en": "Peckaroo: Bird Adventure"
+    },
+    "category": "game",
+    "status": "coming-soon",
+    "featured": false,
+    "order": 5,
+    "accentColor": "#3a7ba7",
+    "shortDescription": {
+      "tr": "Martı Reis'le simidi kap, esnafa şans getir, Marmara'yı uçarak gez!",
+      "en": "Fly with Reis the gull: snatch simit, bring luck and tour Marmara!"
+    },
+    "description": {
+      "tr": "İstanbul'un en arsız martısı Reis ve tayfası, turistlerin elindeki simitlerin peşinde! Pike yap, simidi kap, kombo yap; yoluna çıkan esnafa da yukarıdan bir \"şans\" bırak.\n\nKAP, PİKE YAP, AT\n• Üç düğmeyle oyna: Pike yap, At ve Kanat Çırp.\n• Turistin elindeki lezzeti kap; art arda kaptıkça kombon büyüsün.\n• Süpürgesini sallayan esnafa kaka ya da ceviz at: \"Şans getirir abi!\"\n• Zıplayan çocuklara, rakip martılara, çamaşır iplerine, oltalara ve kedilere dikkat!\n\nMARMARA'YI GEZ\n• 4 şehir, 20 semt, 200 seviye: İstanbul, Bursa, Edirne ve Çanakkale.\n• Her şehrin kendi lezzeti: simit, kestane şekeri, badem ezmesi, peynir helvası.\n• Eminönü'nden Balat'a, Uludağ'dan Kırkpınar'a, Troya'dan Bozcaada'ya...\n• 4 gizli yan alanda 40 seviye daha: Yerebatan Sarnıcı ve Oylat Mağarası'nın karanlığında, Meriç ve Kaz Dağları'nın sisli ormanlarında.\n\nYUMURTALARI ÇATLAT, TAYFANI KUR\n• 10 kuş: Karga, Güvercin, Pelikan, Leylek, Kelaynak, Kartal, Kumru, Yelkovan, Baykuş ve tabii Martı Reis.\n• Her kuşun kendine özgü bir yeteneği var. Kuşlar farklı hissettirir ama hiçbiri diğerinden güçlü değildir: her seviye Reis'le 3 yıldızla geçilir.\n• Yumurtayı okşayarak çatlat, yeni kuşu tayfaya kat.\n• Kostümler ve mermi görünümleriyle kuşunu süsle.\n\nHER GÜN YENİ HEDEF\n• Günlük görevler, haftalık sandık ve başarımlar.\n• Yıldız sandıkları, lezzet kumbarası ve şehir ödülleri.\n• Enerji sistemi yok: istediğin kadar oyna.\n\nKAYDIN GÜVENDE\n• Google Play Games ile bulut yedeği.\n• Türkçe ve İngilizce.\n\nPeckaroo ücretsizdir; reklam ve isteğe bağlı uygulama içi satın almalar (elmas paketleri, Başlangıç Paketi, Reklamsız) içerir. \"Reklamsız\" seviye aralarındaki reklamları ve oyundaki banner'ı kaldırır; ödül için izlenen isteğe bağlı reklamlar seçenek olarak kalır. Rastgele içerikli ücretli paket yoktur.\n\nHadi, Reis seni bekliyor. Simit kendini kapmaz!",
+      "en": "Reis, Istanbul's cheekiest seagull, and his crew are after the simit in every tourist's hand! Dive, snatch, build combos, and drop a little \"luck\" on the shopkeepers along the way.\n\nSNATCH, DIVE, THROW\n• Play with three buttons: Dive, Throw and Flap.\n• Grab the treat from a tourist's hand; chain your grabs to grow your combo.\n• Throw at the shopkeepers swinging their brooms: \"That's good luck, bro!\"\n• Watch out for jumping kids, rival gulls, clotheslines, fishing lines and cats!\n\nTOUR MARMARA\n• 4 cities, 20 districts, 200 levels: Istanbul, Bursa, Edirne and Çanakkale.\n• Every city has its own treat: simit, candied chestnut, almond marzipan, cheese halva.\n• From Eminönü to Balat, Uludağ to Kırkpınar, Troy to Bozcaada...\n• 40 more levels in 4 secret side areas: the dark Basilica Cistern and Oylat Cave, the misty forests of Meriç and Mount Ida.\n\nHATCH EGGS, BUILD YOUR CREW\n• 10 birds: crow, pigeon, pelican, stork, ibis, eagle, dove, shearwater, owl and, of course, Reis the Gull.\n• Every bird has its own ability. Birds feel different, but none is stronger than another: every level can be finished with 3 stars by Reis.\n• Stroke the egg to hatch it and welcome a new bird to the crew.\n• Dress your bird up with costumes and projectile looks.\n\nA NEW GOAL EVERY DAY\n• Daily tasks, a weekly chest and achievements.\n• Star chests, the treat bank and city rewards.\n• No energy system: play as much as you like.\n\nYOUR PROGRESS IS SAFE\n• Cloud save with Google Play Games.\n• English and Turkish.\n\nPeckaroo is free to play and contains ads and optional in-app purchases (gem packs, Starter Pack, No Ads). \"No Ads\" removes the ads between levels and the banner in play; optional rewarded ads stay available. There are no paid packs with random contents.\n\nCome on, Reis is waiting. That simit won't snatch itself!"
+    },
+    "features": {
+      "tr": [
+        "Pike yap, at, kanat çırp: üç düğmeyle oynanır",
+        "4 şehir ve 4 gizli yan alanda 240 seviye",
+        "10 kuş, her birinin kendi yeteneği; yenileri yumurtadan çıkar",
+        "Kostümler ve mermi görünümleri",
+        "Günlük görevler, haftalık sandık ve başarımlar",
+        "Enerji sistemi yok; istediğiniz kadar oynayın",
+        "Hesap gerekmez; Google Play Games ile isteğe bağlı bulut yedeği",
+        "Türkçe ve İngilizce"
+      ],
+      "en": [
+        "Dive, throw and flap: played with three buttons",
+        "240 levels across 4 cities and 4 secret side areas",
+        "10 birds, each with its own ability; new ones hatch from eggs",
+        "Costumes and projectile looks",
+        "Daily tasks, a weekly chest and achievements",
+        "No energy system; play as much as you like",
+        "No account needed; optional cloud save with Google Play Games",
+        "Turkish and English"
+      ]
+    },
+    "icon": "/apps/peckaroo/icon.webp",
+    "screenshots": {
+      "tr": [
+        {
+          "src": "/apps/peckaroo/tr/screenshot-1.webp",
+          "width": 1080,
+          "height": 608
+        },
+        {
+          "src": "/apps/peckaroo/tr/screenshot-2.webp",
+          "width": 1080,
+          "height": 608
+        },
+        {
+          "src": "/apps/peckaroo/tr/screenshot-3.webp",
+          "width": 1080,
+          "height": 608
+        },
+        {
+          "src": "/apps/peckaroo/tr/screenshot-4.webp",
+          "width": 1080,
+          "height": 608
+        },
+        {
+          "src": "/apps/peckaroo/tr/screenshot-5.webp",
+          "width": 1080,
+          "height": 608
+        },
+        {
+          "src": "/apps/peckaroo/tr/screenshot-6.webp",
+          "width": 1080,
+          "height": 608
+        },
+        {
+          "src": "/apps/peckaroo/tr/screenshot-7.webp",
+          "width": 1080,
+          "height": 608
+        },
+        {
+          "src": "/apps/peckaroo/tr/screenshot-8.webp",
+          "width": 1080,
+          "height": 608
+        }
+      ],
+      "en": [
+        {
+          "src": "/apps/peckaroo/en/screenshot-1.webp",
+          "width": 1080,
+          "height": 608
+        },
+        {
+          "src": "/apps/peckaroo/en/screenshot-2.webp",
+          "width": 1080,
+          "height": 608
+        },
+        {
+          "src": "/apps/peckaroo/en/screenshot-3.webp",
+          "width": 1080,
+          "height": 608
+        },
+        {
+          "src": "/apps/peckaroo/en/screenshot-4.webp",
+          "width": 1080,
+          "height": 608
+        },
+        {
+          "src": "/apps/peckaroo/en/screenshot-5.webp",
+          "width": 1080,
+          "height": 608
+        },
+        {
+          "src": "/apps/peckaroo/en/screenshot-6.webp",
+          "width": 1080,
+          "height": 608
+        },
+        {
+          "src": "/apps/peckaroo/en/screenshot-7.webp",
+          "width": 1080,
+          "height": 608
+        },
+        {
+          "src": "/apps/peckaroo/en/screenshot-8.webp",
+          "width": 1080,
+          "height": 608
+        }
+      ]
+    }
   }
 ]
