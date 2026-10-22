@@ -218,5 +218,70 @@
         }
       }
     ]
+  },
+  {
+    "slug": "peckaroo",
+    "items": [
+      {
+        "q": {
+          "tr": "İlerlemem nerede tutuluyor?",
+          "en": "Where is my progress kept?"
+        },
+        "a": {
+          "tr": "Cihazınızda; hesap gerekmez. Google Play Games'e bağlıysanız bir kopyası Google hesabınızdaki bulut yedeğinde de durur, böylece oyunu yeniden kurduğunuzda ya da yeni telefona geçtiğinizde ilerlemeniz geri gelir. Bu yedek bize gönderilmez.",
+          "en": "On your device, with no account needed. If you're signed in to Google Play Games, a copy is also kept in the cloud save on your Google account, so your progress comes back when you reinstall the game or move to a new phone. That copy is never sent to us."
+        }
+      },
+      {
+        "q": {
+          "tr": "Oyunda hangi reklamlar var?",
+          "en": "What ads does the game show?"
+        },
+        "a": {
+          "tr": "Oyun ekranının altında küçük bir banner var, bazı seviye aralarında da ara sıra geçiş reklamı çıkar. Ödüllü reklam yalnızca siz isterseniz izlenir; örneğin devam etmek, ödülü ikiye katlamak ya da kuluçkayı kısaltmak için. Reklamsız, banner'ı ve geçiş reklamlarını kaldırır; ödüllü reklamlar seçenek olarak kalır.",
+          "en": "A small banner sits at the bottom of the game screen, and an interstitial ad shows up now and then between some levels. Rewarded ads play only when you ask, for example to continue, double a reward or shorten a hatch. No Ads removes the banner and the interstitials; rewarded ads stay available as an option."
+        }
+      },
+      {
+        "q": {
+          "tr": "Oyun kullanım bilgisi topluyor mu?",
+          "en": "Does the game collect usage data?"
+        },
+        "a": {
+          "tr": "Evet, oyunu geliştirmek için Firebase ile anonim kullanım ve çökme bilgisi toplanır: hangi seviyelerin oynandığı, cihaz modeli, uygulama sürümü gibi. Adınız, e-postanız ya da Google hesabınız bu verilere bağlanmaz. Ayarlardaki “Analitiğe katkıda bulun” seçeneğini kapatarak toplamayı durdurabilirsiniz. Reklamları Google AdMob gösterir; ayrıntılar Gizlilik Politikası'nda.",
+          "en": "Yes. To improve the game, anonymous usage and crash info is collected through Firebase: which levels are played, your device model, the app version and so on. Your name, email and Google account are never linked to it. You can stop the collection by turning off “Help improve the game” in the settings. Ads are served by Google AdMob; the Privacy Policy has the details."
+        }
+      },
+      {
+        "q": {
+          "tr": "Para harcamadan oynanır mı?",
+          "en": "Can I play without spending money?"
+        },
+        "a": {
+          "tr": "Evet. Enerji sistemi yok, istediğiniz kadar oynarsınız. Kuşlar farklı hissettirir ama hiçbiri diğerinden güçlü değildir; her seviye Reis'le 3 yıldızla geçilir. Satın alınabilenler elmas paketleri, Başlangıç Paketi ve Reklamsız; rastgele içerikli ücretli paket yoktur.",
+          "en": "Yes. There's no energy system, so you can play as much as you like. Birds feel different, but none is stronger than another; every level can be finished with 3 stars by Reis. You can buy gem packs, the Starter Pack and No Ads; there are no paid packs with random contents."
+        }
+      },
+      {
+        "q": {
+          "tr": "Satın aldıklarım yeni telefonuma geçer mi?",
+          "en": "Will my purchases carry over to a new phone?"
+        },
+        "a": {
+          "tr": "Reklamsız gibi tek seferlik ürünler Google hesabınıza bağlıdır; aynı hesapla giriş yaptığınız cihazlarda geri yüklenir. Elmas bakiyesi bu şekilde geri yüklenmez, oyun kaydınızla birlikte taşınır: Google Play Games'e bağlıysanız yeni telefonda da yerinde olur.",
+          "en": "One-time products such as No Ads are tied to your Google account and are restored on any device signed in with it. Your gem balance isn't restored that way; it travels with your game save, so if you're signed in to Google Play Games, it's there on your new phone too."
+        }
+      },
+      {
+        "q": {
+          "tr": "Oyun neden bildirim izni istiyor?",
+          "en": "Why does the game ask for notification permission?"
+        },
+        "a": {
+          "tr": "Kuluçkadaki yumurta çatladığında size tek bir bildirim gönderebilmek için. Bildirim telefonunuzda zamanlanır, bir sunucudan gönderilmez. Oyunun ayarlarından ya da telefon ayarlarından kapatabilirsiniz.",
+          "en": "So it can send you a single notification when an egg in the hatchery hatches. The notification is scheduled on your phone, not sent from a server, and you can turn it off in the game's settings or your phone's settings."
+        }
+      }
+    ]
   }
 ]

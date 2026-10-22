@@ -514,10 +514,11 @@
       "en": "Peckaroo: Bird Adventure"
     },
     "category": "game",
-    "status": "coming-soon",
+    "status": "published",
     "featured": false,
     "order": 5,
     "accentColor": "#3a7ba7",
+    "playUrl": "https://play.google.com/store/apps/details?id=com.ustunsoft.peckaroo",
     "shortDescription": {
       "tr": "Martı Reis'le simidi kap, esnafa şans getir, Marmara'yı uçarak gez!",
       "en": "Fly with Reis the gull: snatch simit, bring luck and tour Marmara!"
@@ -548,6 +549,8 @@
         "Turkish and English"
       ]
     },
+    "ageRating": "3+",
+    "updatedAt": "2026-10",
     "icon": "/apps/peckaroo/icon.webp",
     "screenshots": {
       "tr": [
