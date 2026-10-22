@@ -96,6 +96,31 @@ const SOURCES = {
       ],
     },
   },
+  peckaroo: {
+    icon: "3MpXAED0ZszK21dxbwmHvvKgDXlcGv9oy9i4kVw6QMq1Hefrm45S2GO6dTuAhw4NT4xKcPLK9lQTxFfjHxX7gQ",
+    screenshots: {
+      tr: [
+        "fmElmyYG4kGF4ouCe70AwP_ZesTc3G_vEHbSQ_T8LyQEl-1aYmKBEevRpG6TjguKGfgnqUCJzUAnlJ2QuuYhqg",
+        "f4fRWhNXrcx7XFiGp2k8DFsQvivB7QPJQGDvr1csBtDnCb395ASRBslsyvX4dyT-YMkuF4AUzIZ6ggAbGzs0gQ",
+        "aVqO9Kv6zvN99FSnK7o7fl6q0Yodw6GMeOZhtJder5-NTuwY4JinTZfPM9Zc-zVJvPDKWIdrelF2WQ3DXfYLjg",
+        "cwIXMVhnq_zPX7kxCoyvfArT2b4155F3WxO1DePuiVmwLQRgKDjfmT6UpG833WGXa07zvELu6rLzLbbwt_t4pw",
+        "jsFL-6l901eNzgaUelxfPXxQSupRQfEwhTZvSccScVeQhLV4hj1n3NHjNjurSAk1le5HcL-HChR3sKf6KuQsIA",
+        "W1QYNPmT9Uh1N0aZmk8-iw_SfM_9jgpoJMXYDmRfX6bEasps5reLAjZSfrc6oWopEaunPmzSnjGfjVg_PBPWPw",
+        "a02_16hy0I-C--wG2432fg8p3_x0IFyApoS-XH-tOnjQTfYgAP7ZE5rOrqm5T-fHQciEtj1yOpFmkDeOYZva",
+        "ovnKo__vp69OVbcMMtt1XiAcjW295qOchOBx3BAZDgo3kzeGeLdgC0s3SoiY0klS4Oi2dYhrmzj5zWx4D1-6mw",
+      ],
+      en: [
+        "lDULrViehRONVuzSP6td7-_qC_apZLbLC7Bjz9NRWLN05lixMKuIlVhCg-qfafcQTMfcbOue9wQxQaZmHR6PQA",
+        "oz7PkbsUNxInAx0Q99tNQMdFbCuJx9XngUTEmBkTrPCvqv57MMSg8H7HA0FDDa8ixBZk6E1FELYqeEwSRcM9sgA",
+        "Y0TQhLLQdXe35wqzpTnuGVWN0Jy_y61ma6ZqPfEXhC1mX68TDFIlrtEydU9zq3Hhb7RDg3M7ul0NNpwoHZgfLsQ",
+        "BcYPmbd-M_GxgickKoJFQl8DKODfZCgvHBwmxhjA9Zs9Ym0nFZN_i8nAqnLivalS7fHtRGicCQqjJSuavqqfd0Q",
+        "G5_Xcd_OXXO3UdDn7Q-A9kreLtJc5IasoeWrAHaNV4f_j5yQaX8LkOugWs1imP5zBfSCqKMzj1I0nXvH38UBSw",
+        "oGQQgW_U78HVS6w11lUaRf3mdZin3M2r6QezFMnsZDnYIYCK8_NQARjKXGKv1ozjs_PqVzble2L-srTwG0aOxQ",
+        "ezdFTmWS9tUYas0fEFnIiirHmHQne8w8keybKSSiz9_dbF8ZPN4qzgVOdfAeDmnBi0MWq8BO9Am9-SKkVXgX8A",
+        "Oj6gTso43jh6YpZHlgk4NrY-iZKAAw3_AQ8AFHj0jIpUzkifo-SexebAhHQ1dEaLHNkCbQEG8ay2Qtlb6K8gs30",
+      ],
+    },
+  },
 };
 
 // En büyük kullanım 128 CSS pikseli; 2x ekranlar için 256 yeterli.
