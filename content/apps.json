@@ -519,6 +519,11 @@
     "order": 5,
     "accentColor": "#3a7ba7",
     "playUrl": "https://play.google.com/store/apps/details?id=com.ustunsoft.peckaroo",
+    "social": {
+      "instagram": "https://www.instagram.com/peckaroo.game/",
+      "tiktok": "https://www.tiktok.com/@peckaroo.game",
+      "youtube": "https://www.youtube.com/@peckaroogame"
+    },
     "shortDescription": {
       "tr": "Martı Reis'le simidi kap, esnafa şans getir, Marmara'yı uçarak gez!",
       "en": "Fly with Reis the gull: snatch simit, bring luck and tour Marmara!"

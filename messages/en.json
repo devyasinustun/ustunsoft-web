@@ -9,6 +9,12 @@
     "comingSoonOnPlay": "Coming soon to Google Play",
     "playBadgeAlt": "Get it on Google Play",
     "playBadgeLabel": "{name}: get it on Google Play",
+    "social": {
+      "label": "{name} on social media",
+      "instagram": "{name} on Instagram",
+      "tiktok": "{name} on TikTok",
+      "youtube": "{name} on YouTube"
+    },
     "category": {
       "game": "Game",
       "app": "App"

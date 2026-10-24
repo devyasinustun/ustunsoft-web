@@ -45,6 +45,14 @@ export const appSchema = z
       .optional(),
     icon: z.string().startsWith("/apps/").optional(),
     screenshots: localizedImages,
+    // Uygulamanın kendi hesapları; sitedeki sırası SocialLinks'te sabit.
+    social: z
+      .object({
+        instagram: z.url().startsWith("https://www.instagram.com/").optional(),
+        tiktok: z.url().startsWith("https://www.tiktok.com/@").optional(),
+        youtube: z.url().startsWith("https://www.youtube.com/@").optional(),
+      })
+      .optional(),
   })
   .refine((app) => app.status !== "published" || app.playUrl, {
     message: "published uygulamada playUrl zorunlu",
@@ -57,3 +65,4 @@ export type App = z.infer<typeof appSchema>;
 export type AppImage = z.infer<typeof imageSchema>;
 export type AppCategory = App["category"];
 export type AppStatus = App["status"];
+export type SocialPlatform = keyof NonNullable<App["social"]>;

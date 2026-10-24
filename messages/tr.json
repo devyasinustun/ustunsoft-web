@@ -9,6 +9,12 @@
     "comingSoonOnPlay": "Yakında Google Play'de",
     "playBadgeAlt": "Google Play'den alın",
     "playBadgeLabel": "{name}: Google Play'den alın",
+    "social": {
+      "label": "{name} sosyal medyada",
+      "instagram": "{name} Instagram'da",
+      "tiktok": "{name} TikTok'ta",
+      "youtube": "{name} YouTube'da"
+    },
     "category": {
       "game": "Oyun",
       "app": "Uygulama"

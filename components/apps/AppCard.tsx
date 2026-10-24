@@ -6,6 +6,7 @@ import type { App } from "@/types/app";
 import { AppIcon } from "./AppIcon";
 import { AppStats } from "./AppStats";
 import { PlayBadge } from "./PlayBadge";
+import { SocialLinks } from "./SocialLinks";
 
 type AppCardProps = {
   app: App;
@@ -48,6 +49,7 @@ export function AppCard({ app, headingLevel: Heading = "h3" }: AppCardProps) {
 
         <div className="mt-auto pt-6">
           <PlayBadge app={app} className="relative z-10" />
+          <SocialLinks app={app} className="relative z-10 mt-3" />
         </div>
       </div>
     </article>

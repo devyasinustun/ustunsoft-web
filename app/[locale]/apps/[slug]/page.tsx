@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { AppIcon } from "@/components/apps/AppIcon";
 import { PlayBadge } from "@/components/apps/PlayBadge";
 import { ScreenshotGallery } from "@/components/apps/ScreenshotGallery";
+import { SocialLinks } from "@/components/apps/SocialLinks";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { Container } from "@/components/ui/Container";
 import { Link } from "@/i18n/navigation";
@@ -98,6 +99,7 @@ export default async function AppDetailPage({ params }: PageProps<"/[locale]/app
 
           <div className="mt-8">
             <PlayBadge app={app} />
+            <SocialLinks app={app} variant="header" className="mt-4" />
             {!published && (
               <p className="mt-3 max-w-md font-medium">{t("appDetail.comingSoonNote")}</p>
             )}
