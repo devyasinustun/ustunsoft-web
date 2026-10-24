@@ -93,6 +93,7 @@ export function mobileApplicationJsonLd(app: App, locale: Locale) {
     inLanguage: locale,
     ...(app.icon ? { image: `${SITE_URL}${app.icon}` } : {}),
     ...(app.playUrl ? { installUrl: app.playUrl, downloadUrl: app.playUrl } : {}),
+    ...(app.social ? { sameAs: Object.values(app.social) } : {}),
     ...(app.screenshots[locale].length > 0
       ? { screenshot: app.screenshots[locale].map((shot) => `${SITE_URL}${shot.src}`) }
       : {}),
