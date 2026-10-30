@@ -416,6 +416,9 @@
         "Turkish and English"
       ]
     },
+    "stats": {
+      "downloads": 100
+    },
     "ageRating": "3+",
     "updatedAt": "2026-10",
     "icon": "/apps/okeyro/icon.webp",
@@ -553,6 +556,11 @@
         "No account needed; optional cloud save with Google Play Games",
         "Turkish and English"
       ]
+    },
+    "stats": {
+      "downloads": 100,
+      "rating": 4.9,
+      "ratingCount": 14
     },
     "ageRating": "3+",
     "updatedAt": "2026-10",
