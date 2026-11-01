@@ -64,7 +64,7 @@ npm run verify
 4. Destek sayfasında sık sorulan sorular görünsün istiyorsanız `content/faq.json`'a aynı slug ile bir grup ekleyin.
 5. Uygulama gizlilik politikasının kapsamında değilse önce `public/docs/privacy.html` güncellenmelidir. Bu dosyaya yalnızca site sahibi karar verir.
 
-Ana sayfadaki rakamlar (toplam indirme, yayındaki uygulama sayısı, puan) `apps.json`'dan hesaplanır; elle yazılmaz. Uygulamaların sırası da öyle: önce indirme sayısı, eşitse `releasedAt` (eski olan önce).
+Ana sayfadaki rakamlar (toplam indirme, yayındaki uygulama sayısı, puan) `apps.json`'dan hesaplanır; elle yazılmaz. Uygulamaların sırası da öyle: önce indirme sayısı, eşitse `priority` (büyük olan önce, verilmezse 0), o da eşitse `releasedAt` (eski olan önce).
 
 ## Yakında (coming-soon) bir uygulamayı yayına alma
 

@@ -21,9 +21,11 @@ const LAYOUT = [
 async function FeaturedCard({ app, shots }: { app: App; shots: number }) {
   const t = await getTranslations();
   const locale = (await getLocale()) as Locale;
-  const portrait = app.screenshots[locale]
-    .filter((shot) => shot.height > shot.width)
-    .slice(0, shots);
+  const screenshots = app.screenshots[locale];
+  const portrait = screenshots.filter((shot) => shot.height > shot.width).slice(0, shots);
+  // Yatay oynanan oyunda dikey görsel yok; kart tek bir yatay görsel gösterir.
+  const landscape = portrait.length === 0;
+  const visible = landscape ? screenshots.slice(0, 1) : portrait;
 
   return (
     <article
@@ -32,17 +34,19 @@ async function FeaturedCard({ app, shots }: { app: App; shots: number }) {
     >
       <div
         aria-hidden="true"
-        className="flex h-56 justify-center gap-4 overflow-hidden bg-(--accent) px-6 pt-8 sm:h-72"
+        className={`flex h-56 justify-center gap-4 overflow-hidden bg-(--accent) px-6 pt-8 sm:h-72 ${landscape ? "items-end" : ""}`}
       >
-        {portrait.map((shot) => (
+        {visible.map((shot) => (
           <Image
             key={shot.src}
             src={shot.src}
             alt=""
             width={shot.width}
             height={shot.height}
-            sizes="11rem"
-            className="h-fit w-32 rounded-t-card border-4 border-b-0 border-ink sm:w-44"
+            sizes={landscape ? "(min-width: 640px) 28rem, 21rem" : "11rem"}
+            className={`h-fit rounded-t-card border-4 border-b-0 border-ink ${
+              landscape ? "w-full max-w-84 sm:max-w-md" : "w-32 sm:w-44"
+            }`}
           />
         ))}
       </div>

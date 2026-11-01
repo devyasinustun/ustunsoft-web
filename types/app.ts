@@ -22,6 +22,8 @@ export const appSchema = z
     category: z.enum(["game", "app"]),
     status: z.enum(["published", "coming-soon"]),
     featured: z.boolean(),
+    // Aynı indirme basamağında büyük olan önce gelir; verilmezse 0.
+    priority: z.number().int().optional(),
     accentColor: z.string().regex(/^#[0-9a-f]{6}$/i),
     playUrl: z.url().optional(),
     shortDescription: localizedText,

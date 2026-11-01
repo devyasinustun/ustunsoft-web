@@ -6,6 +6,14 @@ import { ButtonLink } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import type { Locale } from "@/i18n/routing";
 import { getFeaturedApps } from "@/lib/apps";
+import type { AppImage } from "@/types/app";
+
+// Yatay görsel daha geniş durur ve yanındaki telefonun üstüne hafifçe biner.
+function frameFor({ width, height }: AppImage) {
+  return width > height
+    ? { landscape: true, width: "w-[64%] self-center", sizes: "(min-width: 1024px) 21rem, 60vw" }
+    : { landscape: false, width: "w-[46%]", sizes: "(min-width: 1024px) 15rem, 40vw" };
+}
 
 export async function Hero() {
   const t = await getTranslations("home.hero");
@@ -13,6 +21,10 @@ export async function Hero() {
   const [first, second] = (await getFeaturedApps()).filter(
     (app) => app.screenshots[locale].length > 0,
   );
+  const firstShot = first?.screenshots[locale][0];
+  const secondShot = second?.screenshots[locale][0];
+  const firstFrame = firstShot && frameFor(firstShot);
+  const secondFrame = secondShot && frameFor(secondShot);
 
   return (
     <section className="overflow-hidden border-b border-line">
@@ -34,13 +46,13 @@ export async function Hero() {
           </div>
         </div>
 
-        {first && second && (
+        {first && second && firstShot && secondShot && firstFrame && secondFrame && (
           <div className="relative mx-auto flex w-full max-w-md items-start justify-center gap-4 lg:col-span-5 lg:max-w-none">
-            <div className="relative w-[46%] -rotate-3">
+            <div className={`relative -rotate-3 ${firstFrame.width}`}>
               <PhoneFrame
-                {...first.screenshots[locale][0]}
+                {...firstShot}
                 alt={t("screenshotAlt", { name: first.name[locale] })}
-                sizes="(min-width: 1024px) 15rem, 40vw"
+                sizes={firstFrame.sizes}
                 preload
               />
               <AppIcon
@@ -49,11 +61,15 @@ export async function Hero() {
                 className="absolute -bottom-5 -left-4 border-4 border-paper"
               />
             </div>
-            <div className="relative mt-12 w-[46%] rotate-3">
+            <div
+              className={`relative rotate-3 ${secondFrame.width} ${
+                secondFrame.landscape ? "-ml-[14%]" : "mt-12"
+              }`}
+            >
               <PhoneFrame
-                {...second.screenshots[locale][0]}
+                {...secondShot}
                 alt={t("screenshotAlt", { name: second.name[locale] })}
-                sizes="(min-width: 1024px) 15rem, 40vw"
+                sizes={secondFrame.sizes}
                 preload
               />
               <AppIcon

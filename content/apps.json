@@ -130,7 +130,7 @@
     },
     "category": "app",
     "status": "published",
-    "featured": true,
+    "featured": false,
     "accentColor": "#8a6a00",
     "playUrl": "https://play.google.com/store/apps/details?id=com.ustunsoft.scoremaster",
     "shortDescription": {
@@ -518,7 +518,8 @@
     },
     "category": "game",
     "status": "published",
-    "featured": false,
+    "featured": true,
+    "priority": 1,
     "accentColor": "#3a7ba7",
     "playUrl": "https://play.google.com/store/apps/details?id=com.ustunsoft.peckaroo",
     "social": {
