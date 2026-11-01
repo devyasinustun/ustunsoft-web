@@ -6,12 +6,20 @@ import { appsSchema, type App } from "@/types/app";
 
 let cache: App[] | undefined;
 
+// Önce indirmesi çok olan; eşitse Google Play'e daha önce çıkan. Yayın tarihi
+// olmayan (coming-soon) kendi basamağının sonuna düşer.
+function compareApps(a: App, b: App): number {
+  const byDownloads = (b.stats?.downloads ?? 0) - (a.stats?.downloads ?? 0);
+  if (byDownloads !== 0) return byDownloads;
+  return (a.releasedAt ?? "9999").localeCompare(b.releasedAt ?? "9999");
+}
+
 function load(): App[] {
   if (!cache) {
     const apps = appsSchema.parse(appsData);
     const slugs = new Set(apps.map((app) => app.slug));
     if (slugs.size !== apps.length) throw new Error("content/apps.json: tekrar eden slug var");
-    cache = apps.sort((a, b) => a.order - b.order);
+    cache = apps.sort(compareApps);
   }
   return cache;
 }

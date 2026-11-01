@@ -9,7 +9,6 @@
     "category": "game",
     "status": "published",
     "featured": true,
-    "order": 1,
     "accentColor": "#1f7a7a",
     "playUrl": "https://play.google.com/store/apps/details?id=com.ustunsoft.tabumabu",
     "shortDescription": {
@@ -42,6 +41,7 @@
       "ratingCount": 28
     },
     "ageRating": "3+",
+    "releasedAt": "2021-03-10",
     "updatedAt": "2026-03",
     "icon": "/apps/tabu-mabu/icon.webp",
     "screenshots": {
@@ -131,7 +131,6 @@
     "category": "app",
     "status": "published",
     "featured": true,
-    "order": 2,
     "accentColor": "#8a6a00",
     "playUrl": "https://play.google.com/store/apps/details?id=com.ustunsoft.scoremaster",
     "shortDescription": {
@@ -166,6 +165,7 @@
       "downloads": 1000
     },
     "ageRating": "3+",
+    "releasedAt": "2026-05-11",
     "updatedAt": "2026-08",
     "icon": "/apps/score-master/icon.webp",
     "screenshots": {
@@ -245,7 +245,6 @@
     "category": "app",
     "status": "published",
     "featured": false,
-    "order": 3,
     "accentColor": "#b8145f",
     "playUrl": "https://play.google.com/store/apps/details?id=com.ustunsoft.scancode",
     "shortDescription": {
@@ -279,9 +278,10 @@
       ]
     },
     "stats": {
-      "downloads": 100
+      "downloads": 500
     },
     "ageRating": "3+",
+    "releasedAt": "2026-10-08",
     "updatedAt": "2026-10",
     "icon": "/apps/scancode/icon.webp",
     "screenshots": {
@@ -381,7 +381,6 @@
     "category": "game",
     "status": "published",
     "featured": false,
-    "order": 4,
     "accentColor": "#1f5e49",
     "playUrl": "https://play.google.com/store/apps/details?id=com.ustunsoft.okeyro",
     "shortDescription": {
@@ -420,6 +419,7 @@
       "downloads": 100
     },
     "ageRating": "3+",
+    "releasedAt": "2026-10-16",
     "updatedAt": "2026-10",
     "icon": "/apps/okeyro/icon.webp",
     "screenshots": {
@@ -519,7 +519,6 @@
     "category": "game",
     "status": "published",
     "featured": false,
-    "order": 5,
     "accentColor": "#3a7ba7",
     "playUrl": "https://play.google.com/store/apps/details?id=com.ustunsoft.peckaroo",
     "social": {
@@ -558,11 +557,12 @@
       ]
     },
     "stats": {
-      "downloads": 100,
-      "rating": 4.9,
-      "ratingCount": 14
+      "downloads": 1000,
+      "rating": 4.8,
+      "ratingCount": 25
     },
     "ageRating": "3+",
+    "releasedAt": "2026-10-21",
     "updatedAt": "2026-10",
     "icon": "/apps/peckaroo/icon.webp",
     "screenshots": {

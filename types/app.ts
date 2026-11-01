@@ -22,7 +22,6 @@ export const appSchema = z
     category: z.enum(["game", "app"]),
     status: z.enum(["published", "coming-soon"]),
     featured: z.boolean(),
-    order: z.number().int(),
     accentColor: z.string().regex(/^#[0-9a-f]{6}$/i),
     playUrl: z.url().optional(),
     shortDescription: localizedText,
@@ -38,6 +37,8 @@ export const appSchema = z
       })
       .optional(),
     ageRating: z.string().optional(),
+    // Google Play'deki ilk yayın tarihi, YYYY-MM-DD. Sıralamada kullanılır.
+    releasedAt: z.iso.date().optional(),
     // YYYY-MM
     updatedAt: z
       .string()
