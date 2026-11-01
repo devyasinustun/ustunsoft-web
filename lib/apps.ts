@@ -6,11 +6,13 @@ import { appsSchema, type App } from "@/types/app";
 
 let cache: App[] | undefined;
 
-// Önce indirmesi çok olan; eşitse Google Play'e daha önce çıkan. Yayın tarihi
-// olmayan (coming-soon) kendi basamağının sonuna düşer.
+// Önce indirmesi çok olan; eşitse priority'si büyük olan, o da eşitse Google
+// Play'e daha önce çıkan. Yayın tarihi olmayan (coming-soon) basamağının sonuna düşer.
 function compareApps(a: App, b: App): number {
   const byDownloads = (b.stats?.downloads ?? 0) - (a.stats?.downloads ?? 0);
   if (byDownloads !== 0) return byDownloads;
+  const byPriority = (b.priority ?? 0) - (a.priority ?? 0);
+  if (byPriority !== 0) return byPriority;
   return (a.releasedAt ?? "9999").localeCompare(b.releasedAt ?? "9999");
 }
 
