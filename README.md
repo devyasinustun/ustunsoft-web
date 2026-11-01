@@ -64,7 +64,7 @@ npm run verify
 4. Destek sayfasında sık sorulan sorular görünsün istiyorsanız `content/faq.json`'a aynı slug ile bir grup ekleyin.
 5. Uygulama gizlilik politikasının kapsamında değilse önce `public/docs/privacy.html` güncellenmelidir. Bu dosyaya yalnızca site sahibi karar verir.
 
-Ana sayfadaki rakamlar (toplam indirme, yayındaki uygulama sayısı, puan) `apps.json`'dan hesaplanır; elle yazılmaz.
+Ana sayfadaki rakamlar (toplam indirme, yayındaki uygulama sayısı, puan) `apps.json`'dan hesaplanır; elle yazılmaz. Uygulamaların sırası da öyle: önce indirme sayısı, eşitse `releasedAt` (eski olan önce).
 
 ## Yakında (coming-soon) bir uygulamayı yayına alma
 
@@ -72,7 +72,7 @@ Ana sayfadaki rakamlar (toplam indirme, yayındaki uygulama sayısı, puan) `app
 
 1. `status` değerini `"published"` yapın.
 2. `playUrl` ekleyin: `https://play.google.com/store/apps/details?id=<packageName>`
-3. `stats` (`downloads`, varsa `rating`), `ageRating` ve `updatedAt` (`YYYY-AA`) alanlarını doldurun.
+3. `stats` (`downloads`, varsa `rating`), `ageRating`, `releasedAt` (`YYYY-AA-GG`) ve `updatedAt` (`YYYY-AA`) alanlarını doldurun.
 4. İkon ve ekran görüntülerini yukarıdaki betikle indirip `icon` ve `screenshots` alanlarını doldurun; `accentColor`'u ikona göre güncelleyin.
 5. Geçici `shortDescription` ve `description` metinlerini mağazadaki metinlerle değiştirin.
 6. Ana sayfada öne çıksın istiyorsanız `featured` değerini `true` yapın (ana sayfa ilk iki öne çıkan uygulamayı gösterir).
