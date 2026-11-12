@@ -694,12 +694,12 @@
       "emailDeadlineDays": 30,
       "deleted": {
         "tr": [
-          "Sıralama adınız (oyunun hazır listelerinden seçilen ad, örneğin “Hızlı Martı 482”) ve oyuncu kodunuz",
+          "Sıralama adınız (oyunun hazır listelerinden seçilen ad, örneğin “Hızlı Martı 482”), o adın size ayrılmış kaydı (silinince ad başka oyunculara açılır) ve oyuncu kodunuz",
           "Bütün sıralamalardaki skorlarınız: Uzun Uçuş'un günlük, haftalık ve tüm zamanlar sıralamaları ile toplam puan sıralaması (puan, süre, ulaşılan yer, kuş, tarih)",
           "Firebase'deki sıralama kimliğiniz (Firebase Authentication kullanıcısı)"
         ],
         "en": [
-          "Your leaderboard name (a name picked from the game's own lists, e.g. “Swift Gull 482”) and your player code",
+          "Your leaderboard name (a name picked from the game's own lists, e.g. “Swift Gull 482”), the record that reserves that name for you (once deleted, other players can pick it) and your player code",
           "Your scores on every leaderboard: Long Flight's daily, weekly and all-time boards and the total score board (points, time, farthest place, bird, date)",
           "Your leaderboard ID in Firebase (the Firebase Authentication user)"
         ]
