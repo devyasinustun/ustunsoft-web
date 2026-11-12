@@ -14,6 +14,23 @@ const imageSchema = z.object({
 // Mağazada tek set varsa iki dil aynı görselleri listeler.
 const localizedImages = z.object({ tr: z.array(imageSchema), en: z.array(imageSchema) });
 
+// Sunucuda veri tutan uygulamaların silme sayfası (Google Play'in istediği web adresi).
+// Başlıklar ve e-posta adresi messages'tan gelir; buradakiler uygulamaya özel metinler.
+const dataDeletionSchema = z.object({
+  title: localizedText,
+  metaDescription: localizedText,
+  intro: localizedText,
+  inAppSteps: localizedList,
+  inAppNote: localizedText,
+  emailSubject: localizedText,
+  emailDetails: localizedText,
+  emailDeadlineDays: z.number().int().positive(),
+  deleted: localizedList,
+  deletedNote: localizedText,
+  kept: localizedList,
+  keptNote: localizedText,
+});
+
 export const appSchema = z
   .object({
     slug: z.string().regex(/^[a-z0-9-]+$/),
@@ -56,6 +73,7 @@ export const appSchema = z
         youtube: z.url().startsWith("https://www.youtube.com/@").optional(),
       })
       .optional(),
+    dataDeletion: dataDeletionSchema.optional(),
   })
   .refine((app) => app.status !== "published" || app.playUrl, {
     message: "published uygulamada playUrl zorunlu",

@@ -3,12 +3,13 @@
 import { useLocale, useTranslations } from "next-intl";
 import { useEffect } from "react";
 import { Link, usePathname } from "@/i18n/navigation";
-import { routing } from "@/i18n/routing";
+import { routing, type Locale } from "@/i18n/routing";
+import { translatePathname } from "@/lib/paths";
 import { LOCALE_STORAGE_KEY } from "@/lib/site";
 
 export function LocaleSwitcher() {
   const t = useTranslations("localeSwitcher");
-  const locale = useLocale();
+  const locale = useLocale() as Locale;
   const pathname = usePathname();
 
   // Kök sayfa ve 404, ziyaretçiyi son gezdiği dile götürmek için bunu okur.
@@ -28,7 +29,7 @@ export function LocaleSwitcher() {
           return (
             <li key={target}>
               <Link
-                href={pathname}
+                href={translatePathname(pathname, locale, target)}
                 locale={target}
                 lang={target}
                 hrefLang={target}

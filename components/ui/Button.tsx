@@ -11,9 +11,16 @@ const variants = {
   outlineOnBrand: "border-2 border-ink text-ink hover:bg-ink hover:text-paper",
 } as const;
 
+type ButtonVariant = keyof typeof variants;
+
+// Site içi olmayan bağlantılar (mailto: gibi) düz <a> ile aynı görünümü alsın diye.
+export function buttonClassName(variant: ButtonVariant = "primary", className = "") {
+  return `${base} ${variants[variant]} ${className}`;
+}
+
 type ButtonLinkProps = {
   href: string;
-  variant?: keyof typeof variants;
+  variant?: ButtonVariant;
   className?: string;
   children: React.ReactNode;
 };
@@ -25,7 +32,7 @@ export function ButtonLink({
   children,
 }: ButtonLinkProps) {
   return (
-    <Link href={href} className={`${base} ${variants[variant]} ${className}`}>
+    <Link href={href} className={buttonClassName(variant, className)}>
       {children}
     </Link>
   );

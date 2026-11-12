@@ -81,7 +81,7 @@
         },
         "device": {
           "title": "Kayıtlarınız cihazınızda kalır",
-          "body": "Oyun ve skor kayıtlarınız telefonunuzda saklanır, bize gönderilmez. Peckaroo isterseniz bir kopyasını Google Play Games hesabınıza yedekler ve ayarlardan kapatabileceğiniz anonim kullanım ve çökme bilgisi toplar. Ücretsiz sürümlerde Google AdMob reklamları gösterilir; ayrıntısı Gizlilik Politikası'nda."
+          "body": "Oyun ve skor kayıtlarınız telefonunuzda saklanır, bize gönderilmez. Peckaroo'da üç istisna var: isterseniz ilerlemeniz Google Play Games hesabınıza yedeklenir, sıralamada oyunun listelerinden seçilen bir takma ad ve en iyi skorlarınız tutulur, ayarlardan kapatabileceğiniz anonim kullanım ve çökme bilgisi toplanır. Ücretsiz sürümlerde Google AdMob reklamları gösterilir; ayrıntısı Gizlilik Politikası'nda."
         },
         "offline": {
           "title": "İnternetsiz oynanır",
@@ -139,6 +139,20 @@
       "position": "{index} / {total}"
     }
   },
+  "dataDeletion": {
+    "eyebrow": "Veri silme",
+    "app": "Uygulama",
+    "developer": "Geliştirici",
+    "inAppTitle": "{category, select, game {Oyundan silme} other {Uygulamadan silme}}",
+    "easiest": "En kolayı",
+    "emailTitle": "Uygulama artık telefonunuzda değilse",
+    "emailBody": "<mail>{email}</mail> adresine “{subject}” konulu bir e-posta gönderin.",
+    "emailDeadline": "İsteğinizi aldığımızı yanıtlarız ve verilerinizi <b>en geç {days} gün içinde</b> sileriz.",
+    "emailCta": "E-postayı hazırla",
+    "deletedTitle": "Silinen veriler",
+    "keptTitle": "Silinmeyenler",
+    "privacyNote": "Hangi verinin neden işlendiğini <link>Gizlilik Politikası</link> anlatır."
+  },
   "about": {
     "metaTitle": "Hakkımızda",
     "metaDescription": "ustunsoft, İstanbul'da mobil uygulama ve oyun geliştiren bağımsız bir stüdyo. Nasıl çalıştığımız ve neye önem verdiğimiz.",
@@ -164,7 +178,7 @@
         },
         "privacy": {
           "title": "Gizliliğe saygı",
-          "body": "Hesap istemiyoruz, oyun ve skor kayıtlarınızı bize göndermiyoruz. Reklam olduğunu da, Peckaroo'nun anonim kullanım bilgisi topladığını da açıkça söylüyoruz."
+          "body": "Hesap istemiyoruz, oyun kayıtlarınızı bize göndermiyoruz. Reklam olduğunu da, Peckaroo'nun anonim kullanım bilgisi topladığını ve sıralamasında en iyi skorlarınızı tuttuğunu da açıkça söylüyoruz."
         },
         "feedback": {
           "title": "Geri bildirimi okuruz",
