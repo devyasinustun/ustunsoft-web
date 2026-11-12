@@ -13,6 +13,7 @@ import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { getAppBySlug, getApps } from "@/lib/apps";
 import { formatCount, formatMonth, formatRating } from "@/lib/format";
+import { dataDeletionPath } from "@/lib/paths";
 import { mobileApplicationJsonLd, pageMetadata, withSiteName } from "@/lib/seo";
 import { CONTACT_EMAIL, PRIVACY_PATH, TERMS_PATH } from "@/lib/site";
 
@@ -202,6 +203,16 @@ export default async function AppDetailPage({ params }: PageProps<"/[locale]/app
                   {t("appDetail.terms")}
                 </a>
               </li>
+              {app.dataDeletion && (
+                <li>
+                  <Link
+                    href={dataDeletionPath(app.slug, locale)}
+                    className="underline underline-offset-4"
+                  >
+                    {app.dataDeletion.title[locale]}
+                  </Link>
+                </li>
+              )}
             </ul>
           </section>
         </aside>

@@ -651,6 +651,77 @@
           "height": 608
         }
       ]
+    },
+    "dataDeletion": {
+      "title": {
+        "tr": "Sıralama verilerini silme",
+        "en": "Deleting your leaderboard data"
+      },
+      "metaDescription": {
+        "tr": "Peckaroo'daki sıralama verilerinizi oyundan ya da e-postayla nasıl sileceğiniz; neyin silindiği, neyin kaldığı.",
+        "en": "How to delete your Peckaroo leaderboard data in the game or by email, and what is and isn't deleted."
+      },
+      "intro": {
+        "tr": "Peckaroo'da bir hesap açmazsınız. Google Play Games'e bağlandığınızda oyun, sıralamada yer almanız için Google Firebase'de size bir sıralama kimliği açar. Bu sayfa o verilerin nasıl silineceğini anlatır.",
+        "en": "You don't create an account in Peckaroo. When you connect Google Play Games, the game gives you a leaderboard ID in Google Firebase so that you can appear on the leaderboards. This page explains how to delete that data."
+      },
+      "inAppSteps": {
+        "tr": [
+          "Peckaroo'yu açın.",
+          "Haritada sağ üstteki dişliye dokunun: Ayarlar.",
+          "Sıralama bölümünde “Sıralamadan çık ve verilerimi sil” düğmesine dokunun.",
+          "Onay kartında “Sil” düğmesine dokunun."
+        ],
+        "en": [
+          "Open Peckaroo.",
+          "On the map, tap the gear at the top right: Settings.",
+          "In the Leaderboard section, tap “Leave the board and delete my data”.",
+          "On the confirmation card, tap “Delete”."
+        ]
+      },
+      "inAppNote": {
+        "tr": "Silme hemen yapılır. İsterseniz daha sonra aynı yerden “Sıralamaya katıl” ile yeniden katılabilirsiniz; o zaman yeni bir kimlik ve yeni bir sıralama adı alırsınız.",
+        "en": "Your data is deleted right away. You can join again later from the same place with “Join the board”; you then get a new ID and a new leaderboard name."
+      },
+      "emailSubject": {
+        "tr": "Peckaroo veri silme",
+        "en": "Peckaroo data deletion"
+      },
+      "emailDetails": {
+        "tr": "E-postaya oyuncu kodunuzu yazın: Ayarlar → Sıralama → “Oyuncu kodu: PK-…” (örneğin PK-7F3A9C). Kodunuzu bilmiyorsanız hangi şehrin sıralamasında ve yaklaşık hangi gün olduğunuzu, sıralama adınızı da (örneğin “Hızlı Martı 482”) yazın; sizi bulmaya çalışırız.",
+        "en": "Include your player code: Settings → Leaderboard → “Player code: PK-…” (e.g. PK-7F3A9C). If you don't know your code, tell us which city's board you were on, roughly when, and your leaderboard name (e.g. “Swift Gull 482”), and we will try to find you."
+      },
+      "emailDeadlineDays": 30,
+      "deleted": {
+        "tr": [
+          "Sıralama adınız (oyunun hazır listelerinden seçilen ad, örneğin “Hızlı Martı 482”) ve oyuncu kodunuz",
+          "Bütün sıralamalardaki skorlarınız: Uzun Uçuş'un günlük, haftalık ve tüm zamanlar sıralamaları ile toplam puan sıralaması (puan, süre, ulaşılan yer, kuş, tarih)",
+          "Firebase'deki sıralama kimliğiniz (Firebase Authentication kullanıcısı)"
+        ],
+        "en": [
+          "Your leaderboard name (a name picked from the game's own lists, e.g. “Swift Gull 482”) and your player code",
+          "Your scores on every leaderboard: Long Flight's daily, weekly and all-time boards and the total score board (points, time, farthest place, bird, date)",
+          "Your leaderboard ID in Firebase (the Firebase Authentication user)"
+        ]
+      },
+      "deletedNote": {
+        "tr": "Bunlardan geriye kopya kalmaz.",
+        "en": "No copy of them is kept."
+      },
+      "kept": {
+        "tr": [
+          "Oyunun ilerlemesi (bölümler, yıldızlar, tüyler, kuşlar, kostümler) telefonunuzda ve kendi Google hesabınızdaki Play Games bulut yedeğinde kalır; sıralamadan çıkmak oyununuzu etkilemez. Play Games yedeğini Google hesabınızın Play Games ayarlarından silebilirsiniz.",
+          "Analitik ve çökme raporları (Firebase Analytics, Crashlytics) sıralama kimliğinize bağlı değildir; Google'ın saklama sürelerine göre kendiliğinden silinir (Analytics en fazla 14 ay, Crashlytics 90 gün). Ayarlar → Diğer → “Analitiğe katkıda bulun” seçeneğini kapatarak toplanmalarını durdurabilirsiniz."
+        ],
+        "en": [
+          "Your game progress (levels, stars, feathers, birds, costumes) stays on your phone and in the Play Games cloud backup in your own Google account; leaving the leaderboard does not affect your game. You can delete the Play Games backup in your Google account's Play Games settings.",
+          "Analytics and crash reports (Firebase Analytics, Crashlytics) are not linked to your leaderboard ID; they are deleted automatically under Google's retention periods (up to 14 months for Analytics, 90 days for Crashlytics). You can stop them in Settings → More → “Help improve the game”."
+        ]
+      },
+      "keptNote": {
+        "tr": "Peckaroo e-posta adresinizi, gerçek adınızı, Play Games adınızı ya da profil resminizi sıralamada tutmaz.",
+        "en": "Peckaroo does not keep your email address, real name, Play Games name or profile picture on the leaderboard."
+      }
     }
   }
 ]

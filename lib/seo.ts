@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { routing, type Locale } from "@/i18n/routing";
+import { pathFor, type LocalizedPath } from "@/lib/paths";
 import { CONTACT_EMAIL, SITE_NAME, SITE_URL } from "@/lib/site";
 import type { App } from "@/types/app";
 
@@ -15,18 +16,17 @@ export const SITE_ICONS: Metadata["icons"] = {
   apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
 };
 
-// path: dil ön eki olmadan, baştaki ve sondaki eğik çizgiyle ("/", "/apps/").
-export function localizedAlternates(locale: Locale, path: string): Metadata["alternates"] {
+export function localizedAlternates(locale: Locale, path: LocalizedPath): Metadata["alternates"] {
   const languages: Record<string, string> = {};
-  for (const l of routing.locales) languages[l] = `/${l}${path}`;
-  languages["x-default"] = `/${routing.defaultLocale}${path}`;
+  for (const l of routing.locales) languages[l] = `/${l}${pathFor(path, l)}`;
+  languages["x-default"] = `/${routing.defaultLocale}${pathFor(path, routing.defaultLocale)}`;
 
-  return { canonical: `/${locale}${path}`, languages };
+  return { canonical: `/${locale}${pathFor(path, locale)}`, languages };
 }
 
 type PageMetadataInput = {
   locale: Locale;
-  path: string;
+  path: LocalizedPath;
   // Sekme başlığı; layout'taki şablon sonuna site adını ekler. Verilmezse layout'un varsayılanı kullanılır.
   title?: string;
   // Paylaşım kartlarında görünen tam başlık.
@@ -51,7 +51,7 @@ export function pageMetadata({
       siteName: SITE_NAME,
       title: socialTitle,
       description,
-      url: `/${locale}${path}`,
+      url: `/${locale}${pathFor(path, locale)}`,
       locale: OG_LOCALE[locale],
       alternateLocale: routing.locales.filter((l) => l !== locale).map((l) => OG_LOCALE[l]),
       images: [OG_IMAGE],

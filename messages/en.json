@@ -81,7 +81,7 @@
         },
         "device": {
           "title": "Your saves stay on your device",
-          "body": "Your game and score saves are stored on your phone and never sent to us. Peckaroo can back up a copy to your Google Play Games account if you want, and collects anonymous usage and crash info that you can turn off in its settings. Free versions show Google AdMob ads; the Privacy Policy has the details."
+          "body": "Your game and score saves are stored on your phone and never sent to us. Peckaroo has three exceptions: if you want, your progress is backed up to your Google Play Games account; its leaderboard keeps a nickname picked from the game's own lists and your best scores; and it collects anonymous usage and crash info that you can turn off in its settings. Free versions show Google AdMob ads; the Privacy Policy has the details."
         },
         "offline": {
           "title": "Plays offline",
@@ -139,6 +139,20 @@
       "position": "{index} / {total}"
     }
   },
+  "dataDeletion": {
+    "eyebrow": "Data deletion",
+    "app": "App",
+    "developer": "Developer",
+    "inAppTitle": "{category, select, game {Delete it in the game} other {Delete it in the app}}",
+    "easiest": "Easiest",
+    "emailTitle": "If the app is no longer on your phone",
+    "emailBody": "Send an email with the subject “{subject}” to <mail>{email}</mail>.",
+    "emailDeadline": "We will confirm your request and delete your data <b>within {days} days</b>.",
+    "emailCta": "Write the email",
+    "deletedTitle": "What is deleted",
+    "keptTitle": "What is not deleted",
+    "privacyNote": "The <link>Privacy Policy</link> explains what data is processed and why."
+  },
   "about": {
     "metaTitle": "About",
     "metaDescription": "ustunsoft is an independent studio in Istanbul that builds mobile apps and games. How we work and what we care about.",
@@ -164,7 +178,7 @@
         },
         "privacy": {
           "title": "Respect for privacy",
-          "body": "We don't ask for an account, and your game and score saves are never sent to us. We also say plainly that the apps show ads and that Peckaroo collects anonymous usage info."
+          "body": "We don't ask for an account, and your game saves are never sent to us. We also say plainly that the apps show ads, that Peckaroo collects anonymous usage info and that its leaderboard keeps your best scores."
         },
         "feedback": {
           "title": "We read feedback",

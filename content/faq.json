@@ -234,6 +234,16 @@
       },
       {
         "q": {
+          "tr": "Sıralamada hangi bilgilerim görünüyor? Nasıl silerim?",
+          "en": "What does the leaderboard show about me? How do I delete it?"
+        },
+        "a": {
+          "tr": "Google Play Games'e bağlıysanız oyunun listelerinden seçilen bir sıralama adı (örneğin “Hızlı Martı 482”) ve en iyi skorlarınız Google Firebase'de tutulur ve diğer oyunculara görünür. E-posta adresiniz, gerçek adınız, Play Games adınız ya da profil resminiz sıralamada yer almaz. Silmek için oyunda Ayarlar → Sıralama → “Sıralamadan çık ve verilerimi sil” düğmesine dokunun. Oyun telefonunuzda değilse oyuncu kodunuzla ustunsoft.development@gmail.com adresine yazın, 30 gün içinde sileriz.",
+          "en": "If you're signed in to Google Play Games, a leaderboard name picked from the game's own lists (e.g. “Swift Gull 482”) and your best scores are kept in Google Firebase and shown to other players. Your email address, real name, Play Games name and profile picture are never on the leaderboard. To delete it, tap Settings → Leaderboard → “Leave the board and delete my data” in the game. If the game is no longer on your phone, email ustunsoft.development@gmail.com with your player code and we'll delete it within 30 days."
+        }
+      },
+      {
+        "q": {
           "tr": "Oyunda hangi reklamlar var?",
           "en": "What ads does the game show?"
         },
