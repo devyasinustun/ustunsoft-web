@@ -191,22 +191,46 @@
       "items": {
         "flutter": {
           "name": "Flutter",
-          "body": "Mobil uygulamalar"
+          "body": "Uygulamalar ve oyunlar"
         },
         "unity": {
           "name": "Unity",
-          "body": "Oyunlar"
+          "body": "Tabu Mabu"
         },
         "dotnet": {
           "name": ".NET",
-          "body": "Araçlar ve servisler"
+          "body": "Sunucu tarafı ve araçlar"
         }
       }
     },
     "founder": {
       "title": "Kurucu",
-      "placeholderLabel": "Yer tutucu",
-      "placeholder": "Bu bölümün metni henüz yazılmadı. Kurucu tanıtımı buraya gelecek."
+      "role": "Kurucu · Senior .NET Developer",
+      "photoAlt": "Yasin Üstün'ün portre fotoğrafı",
+      "p1": "Yasin Üstün 10 yılı aşkın süredir kurumsal yazılım geliştiriyor. Bankaların kredi ve müşteri sistemlerinden sermaye piyasası portallarına, e-ticaret ve lojistik altyapılarından CRM uygulamalarına kadar farklı alanlarda çalıştı. Eski sistemleri güncel .NET'e taşıyor; ödeme, e-fatura ve kredi bürosu gibi dış sistemlerle entegrasyonlar kuruyor.",
+      "p2": "ustunsoft'u, kurumsal projelerde edindiği deneyimi herkesin kullanabileceği mobil uygulama ve oyunlara taşımak için kurdu. Flutter ve Unity ile geliştirmeden Google Play'de yayınlamaya ve destek e-postalarını yanıtlamaya kadar her adımı kendisi yürütüyor.",
+      "facts": {
+        "experience": {
+          "label": "Deneyim",
+          "value": "10+ yıl",
+          "detail": "Kurumsal yazılım geliştirme"
+        },
+        "focus": {
+          "label": "Uzmanlık",
+          "value": ".NET",
+          "detail": "Modernizasyon, API ve entegrasyon"
+        },
+        "education": {
+          "label": "Eğitim",
+          "value": "Bilgisayar Mühendisliği",
+          "detail": "İstanbul Üniversitesi, lisans"
+        }
+      },
+      "links": {
+        "site": "Kişisel site",
+        "linkedin": "LinkedIn",
+        "newTab": "(yeni sekmede açılır)"
+      }
     }
   },
   "contact": {

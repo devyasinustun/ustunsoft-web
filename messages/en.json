@@ -191,22 +191,46 @@
       "items": {
         "flutter": {
           "name": "Flutter",
-          "body": "Mobile apps"
+          "body": "Apps and games"
         },
         "unity": {
           "name": "Unity",
-          "body": "Games"
+          "body": "Tabu Mabu"
         },
         "dotnet": {
           "name": ".NET",
-          "body": "Tools and services"
+          "body": "Server side and tools"
         }
       }
     },
     "founder": {
       "title": "Founder",
-      "placeholderLabel": "Placeholder",
-      "placeholder": "The text for this section hasn't been written yet. The founder's introduction will go here."
+      "role": "Founder · Senior .NET Developer",
+      "photoAlt": "Portrait of Yasin Üstün",
+      "p1": "Yasin Üstün has been building enterprise software for more than 10 years, across banks' loan and customer systems, capital markets portals, e-commerce and logistics platforms, and CRM applications. The core of that work is moving legacy systems onto modern .NET and building integrations with outside systems such as payment providers, e-invoicing and the credit bureau.",
+      "p2": "Yasin founded ustunsoft to bring that enterprise experience to mobile apps and games anyone can use. Every step runs through the founder: building with Flutter and Unity, publishing on Google Play and answering support emails.",
+      "facts": {
+        "experience": {
+          "label": "Experience",
+          "value": "10+ years",
+          "detail": "Enterprise software development"
+        },
+        "focus": {
+          "label": "Focus",
+          "value": ".NET",
+          "detail": "Modernization, APIs and integrations"
+        },
+        "education": {
+          "label": "Education",
+          "value": "Computer Engineering",
+          "detail": "Istanbul University, B.Sc."
+        }
+      },
+      "links": {
+        "site": "Personal site",
+        "linkedin": "LinkedIn",
+        "newTab": "(opens in a new tab)"
+      }
     }
   },
   "contact": {
