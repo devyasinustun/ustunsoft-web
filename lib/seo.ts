@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { routing, type Locale } from "@/i18n/routing";
 import { pathFor, type LocalizedPath } from "@/lib/paths";
-import { CONTACT_EMAIL, SITE_NAME, SITE_URL } from "@/lib/site";
+import { CONTACT_EMAIL, FOUNDER, SITE_NAME, SITE_URL } from "@/lib/site";
 import type { App } from "@/types/app";
 
 const OG_LOCALE: Record<Locale, string> = { tr: "tr_TR", en: "en_US" };
@@ -76,7 +76,12 @@ export function organizationJsonLd(locale: Locale, description: string) {
     logo: `${SITE_URL}/icon-512.png`,
     description,
     email: CONTACT_EMAIL,
-    founder: { "@type": "Person", name: "Yasin Üstün" },
+    founder: {
+      "@type": "Person",
+      name: FOUNDER.name,
+      url: FOUNDER.site[locale],
+      sameAs: [FOUNDER.linkedin],
+    },
     address: { "@type": "PostalAddress", addressLocality: "İstanbul", addressCountry: "TR" },
   };
 }
