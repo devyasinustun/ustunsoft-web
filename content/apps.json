@@ -282,7 +282,7 @@
     },
     "ageRating": "3+",
     "releasedAt": "2026-10-08",
-    "updatedAt": "2026-10",
+    "updatedAt": "2026-11",
     "icon": "/apps/scancode/icon.webp",
     "screenshots": {
       "tr": [
@@ -562,9 +562,9 @@
       ]
     },
     "stats": {
-      "downloads": 5000,
-      "rating": 4.7,
-      "ratingCount": 214
+      "downloads": 10000,
+      "rating": 4.8,
+      "ratingCount": 245
     },
     "ageRating": "3+",
     "releasedAt": "2026-10-21",
